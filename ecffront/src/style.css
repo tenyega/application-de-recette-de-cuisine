@@ -1,0 +1,163 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  color: #0563bb;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #067ded;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* NAVBAR */
+.logo {
+  margin: 0.2rem;
+  padding: 0.2rem;
+  border-radius: 50%;
+}
+.Navbar {
+  background-color: rgb(226, 204, 208);
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+}
+.containerNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0.2rem;
+  margin-right: 0.3rem;
+
+  color: black;
+}
+
+.imgNav {
+  height: 25px;
+  width: 25px;
+}
+.NavList {
+  text-align: center;
+  color: black;
+}
+
+.NavList:hover {
+  color: #d6a25b;
+}
+
+/*Search Bar*/
+.search {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  margin: 5rem;
+  position: relative;
+}
+.searchBar {
+  border: 2px solid #e2ccd0;
+  width: 50%;
+  border-radius: 20px;
+  height: 30px;
+  padding: 10px;
+  font-size: 16px;
+}
+.searchBar:hover,
+.searchBar:focus {
+  border: 2px solid #df8293;
+}
+.loop {
+  position: absolute;
+  top: 50%;
+  right: 365px; /* Adjust based on desired icon position */
+  transform: translateY(-50%);
+  color: #888; /* Adjust icon color */
+  font-size: 18px; /* Adjust icon size */
+}
+
+/*Recipe Card*/
+
+.CardContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 0.2rem;
+  padding: 0.5rem;
+}
+.card {
+  width: 300px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card-image {
+  width: 100%;
+  height: 200px; /* Adjust height as needed */
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.card-time {
+  color: #888;
+  font-size: 0.9rem;
+}
+
+/* .btnDetails {
+  color: white;
+  align-self: right;
+} */
+.btnDetails {
+  position: relative;
+  display: inline-flex; /* Use flexbox for centering */
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+  padding: 10px 20px; /* Adjust padding as needed */
+  background-color: #65558f;
+  color: #fff; /* Example text color */
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.btnDetails img {
+  margin-left: 5px; /* Adjust margin between text and icon */
+}
+.card {
+  position: relative;
+  height: 400px; /* Example height of container */
+}
+
+.btnDetails {
+  position: absolute;
+  bottom: 20px; /* Adjust distance from bottom */
+  right: 20px; /* Adjust distance from right */
+}
