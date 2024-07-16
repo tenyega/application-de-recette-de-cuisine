@@ -1,5 +1,6 @@
 import { JSXElementConstructor, Key, ReactElement, ReactNode, ReactPortal, useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
+import StarIcon from "./StarIcon";
 
 interface Data {
     id: string;
@@ -20,8 +21,6 @@ export default function RecipeCard() {
     const [res, setRes] = useState([]);
     const [searchTxt, setSearchTxt] = useState('');
     const [shouldFetch, setShouldFetch] = useState(false);
-
-
 
     useEffect(() => {
         //this code runs only when shouldFetch is true (false by default) which means we have typed something in our search bar        
@@ -68,17 +67,24 @@ export default function RecipeCard() {
         if (datas) {
             const filtered = datas.filter((item: { title: string; }) => item.title.toLowerCase().includes(searchTxt));
             setRes(filtered);
-            console.log(res)
         }
     }, [datas]);
 
-    const handleChange = async(e: { target: { name: any; value: any; }; }) => {
+    const handleChange = async(e: { target: { value: any; }; }) => {
         const value = e.target.value;
         setSearchTxt(value)
         setShouldFetch(true);
       
     }
-      
+
+    
+
+
+ 
+  
+
+
+
 
     return (<>
         <div className="search">
@@ -95,10 +101,13 @@ export default function RecipeCard() {
         {/* <p>Current value: {inputValue}</p> */}
       </div>
         <div className="CardContainer">
-        {res.map((data: {id: Key | null | undefined, img: string | undefined; title: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | null | undefined; time: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | null | undefined; }) => (
+        {res.map((data: {id: Key , img: string | undefined; title: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | null | undefined; time: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | null | undefined; }) => (
 
         <div className="card" key={data.id}>
-            <img src={data.img} alt="Example Image" className="card-image" />
+                <img src={data.img} alt="Example Image" className="card-image" />
+                <button className="star-button" >
+                <StarIcon id={data.id?.toString()} dataId={data.id?.toString()} />
+             </button>
             <div className="card-content">
                 <h2 className="card-title">{data.title}</h2>
                 <p className="card-time">{data.time}</p>
@@ -113,3 +122,6 @@ export default function RecipeCard() {
             </>
     );
 }
+
+
+

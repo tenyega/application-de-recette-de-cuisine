@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import NavBar from "./Navbar";
-import RecipeDetail from "./RecipeDetail";
 import {  useNavigate } from 'react-router-dom';
 
 interface Data {

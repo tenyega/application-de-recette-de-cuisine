@@ -33,7 +33,7 @@ li {
   border-radius: 50%;
 }
 .Navbar {
-  background-color: rgb(226, 204, 208);
+  background-color: #e2ccd0;
   margin-left: 0.2rem;
   margin-right: 0.2rem;
 }
@@ -214,4 +214,33 @@ li {
   text-align: center;
   padding: 2rem;
   margin: 0.2rem;
+}
+
+/*Star icon on the image for favorite*/
+
+.star-button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.star-icon {
+  width: 50px;
+  height: 50px;
+  color: #ffcc00; /* Star color */
+  transition: transform 0.3s, color 0.3s;
+}
+
+.star-button:hover .star-icon {
+  color: #ff9900; /* Star color on hover */
+  transform: scale(1.1);
+}
+
+.star-button:active .star-icon {
+  transform: scale(0.9);
 }
