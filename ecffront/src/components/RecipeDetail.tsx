@@ -28,7 +28,6 @@ export default function RecipeDetail() {
             const datas = await response.json(); 
             if (datas) {
                 setResRecipe(datas);
-                console.log("resRecipe", resRecipe);
 
             }
         } catch (err) {

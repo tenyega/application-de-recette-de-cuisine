@@ -6,9 +6,7 @@ interface Data {
     title: string;
     desc: string;
     ingredients:  { [key: string]: string };
-    step: {
-        id: string;
-    }
+    step:  { [key: string]: string };
     category: string;
     img: string;
     isFavorite: boolean;
