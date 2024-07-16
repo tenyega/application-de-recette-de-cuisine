@@ -4,7 +4,7 @@
       "id":"1",
       "title":"Oeufs mimosa",
       "desc":"Oeufs Mimosa, also known as Deviled Eggs in English, is a classic appetizer made by filling hard-boiled egg whites with a seasoned yolk mixture. Here's a detailed recipe to help you create this delightful dish",
-      "ingredient":{"1":"0.25 l d' huile",
+      "ingredients":{"1":"0.25 l d' huile",
                     "2":"persil chopped",
                     "3":"1 small bowl of mayonnaise",
                     "4":"1 cuillère à café de moutarde",
@@ -14,12 +14,13 @@
                     "8":"black olives to decorate the eggs (optional)",
                     "9":"lemon juice (optional)"
                     },
-      "step":{"1":"Cook the eggs in boiling water for 10 minutes, then put them in cold water to stop the cooking process.",
-            "2":"Make a mayonnaise with 1 egg yolk, 1 teaspoon mustard, 1/4 l oil and lemon juice (optional), or use a commercially prepared mayonnaise. The lemon juice is added at the last minute.",
-            "3":"Shell the eggs, cut them lengthwise and separate the whites from the yolks.",
-            "4":"In a shallow dish, crumble the yolks with a fork, mix half of the crumbled yolks with the mayonnaise and set the rest aside.",
-            "5":"Fill the half-eggs with this mixture, then sprinkle each half-egg with the remaining crumbled yolks (which makes the mimosa!!).",
-            "6":"Arrange the eggs on lettuce leaves, sprinkle each egg with parsley and a black olive. Serve chilled."
+      "steps":{
+            "1":"Step 1 - Cook the eggs in boiling water for 10 minutes, then put them in cold water to stop the cooking process.",
+            "2":"Step 2 - Make a mayonnaise with 1 egg yolk, 1 teaspoon mustard, 1/4 l oil and lemon juice (optional), or use a commercially prepared mayonnaise. The lemon juice is added at the last minute.",
+            "3":"Step 3 - Shell the eggs, cut them lengthwise and separate the whites from the yolks.",
+            "4":"Step 4 - In a shallow dish, crumble the yolks with a fork, mix half of the crumbled yolks with the mayonnaise and set the rest aside.",
+            "5":"Step 5 - Fill the half-eggs with this mixture, then sprinkle each half-egg with the remaining crumbled yolks (which makes the mimosa!!).",
+            "6":"Step 6 - Arrange the eggs on lettuce leaves, sprinkle each egg with parsley and a black olive. Serve chilled."
             },
      "category":"french",
      "img":"https://th.bing.com/th/id/OSK.HERO5Oh7tVzuhm7YOHZJ2m21uqVK0Flljncu3-IfxAdaeXM?rs=1&pid=ImgDetMain",
@@ -30,7 +31,7 @@
       "id":"2",
       "title":"Tibetan Momo",
       "desc":"Tibetan momos are a type of dumpling native to the Tibetan Plateau. They are a popular dish not only in Tibet but also in neighboring regions like Nepal, Bhutan, and parts of India, especially among the Tibetan diaspora. Here’s an overview of Tibetan momos",
-      "ingredient":{"1":"2 cups all-purpose flour",
+      "ingredients":{"1":"2 cups all-purpose flour",
                     "2":"Water (as needed)",
                     "3":"Pinch of salt",
                     "4":"corriander",
@@ -38,15 +39,16 @@
                     "6":"0.25l of oil",
                     "7":"2 middle size onion"                    
                     },
-      "step":{"1":"Mix the flour and a pinch of salt in a bowl.",
-            "2":"Gradually add water and knead until you form a smooth and elastic dough.",
-            "3":"Cover the dough with a damp cloth and let it rest for at least 30 minutes.",
-            "4":"In a mixing bowl, combine all the filling ingredients.",
-            "5":"Mix well to ensure the seasoning is evenly distributed.",
-            "6":"Divide the dough into small, equal-sized balls.",
-            "7":"Roll each ball into a thin, circular wrapper about 3 inches in diameter.",
-            "8":"Place a spoonful of filling in the center of each wrapper.",
-            "9":"Fold the wrapper over the filling and pinch the edges to seal. You can make pleats for a traditional look or simply press the edges together"
+      "steps":{
+            "1":"Step 1 - Mix the flour and a pinch of salt in a bowl.",
+            "2":"Step 2 - Gradually add water and knead until you form a smooth and elastic dough.",
+            "3":"Step 3 - Cover the dough with a damp cloth and let it rest for at least 30 minutes.",
+            "4":"Step 4- In a mixing bowl, combine all the filling ingredients.",
+            "5":"Step 5 - Mix well to ensure the seasoning is evenly distributed.",
+            "6":"Step 6 - Divide the dough into small, equal-sized balls.",
+            "7":"Step 7 - Roll each ball into a thin, circular wrapper about 3 inches in diameter.",
+            "8":"Step 8 - Place a spoonful of filling in the center of each wrapper.",
+            "9":"Step 9 - Fold the wrapper over the filling and pinch the edges to seal. You can make pleats for a traditional look or simply press the edges together"
             },
      "category":"tibetan",
      "img":"https://www.steppestravel.com/app/uploads/2020/05/tibetan-momo.jpg",
@@ -57,7 +59,7 @@
       "id":"3",
       "title":"Quesadillas aux haricots noirs",
       "desc":"This vegetarian version of taquitos contains black beans, cream cheese, lime and corn kernels, which are spread in wheat tortillas. They are pan-fried and served with sour cream, green onions and salsa. A Mexican-inspired dish that's perfect during the week, when you're simply looking to eat well.",
-      "ingredient":{"1":"1 red bell pepper",
+      "ingredients":{"1":"1 red bell pepper",
                     "2":"2 tsp. olive oil",
                     "3":"1 onion, finely chopped",
                     "4":"2 garlic cloves, finely minced",
@@ -67,11 +69,12 @@
                     "8":"250 ml (1 cup) mixed cheddar and Monterey Jack cheeses, grated",
                     "9":"8 whole-wheat tortillas, 17.5 cm (7 in.) long"                    
                     },
-      "step":{"1":"Preheat oven to 180°C (350°F). Peel and seed peppers and cut into 0.5 cm (1/4) cubes. Heat oil in a large skillet over medium heat. Add onion. Cook, stirring often, until softened, about 3 minutes.",
-            "2":"Stir in bell pepper and garlic. Cook, stirring occasionally, for about 2 minutes. Drain and rinse beans. Add to salsa and cumin mixture. Cook, stirring occasionally, until beans are hot, about 3 minutes. Remove from heat.",
-            "3":"In a bowl, combine cilantro and cheese. Place a tortilla in a medium nonstick skillet over medium heat. Top with a quarter of the bean mixture. Sprinkle with a quarter of the cheese.",
-            "4":"Cover with another tortilla. Press down. Brown base, about 2 minutes. Using a large spatula, turn over and brown other side, 2 minutes. Place on a baking sheet and keep warm in the oven.",
-            "5":"Repeat with remaining tortillas. Cut quesadillas into quarters."
+      "steps":{
+            "1":"Step 1 - Preheat oven to 180°C (350°F). Peel and seed peppers and cut into 0.5 cm (1/4) cubes. Heat oil in a large skillet over medium heat. Add onion. Cook, stirring often, until softened, about 3 minutes.",
+            "2":"Step 2 - Stir in bell pepper and garlic. Cook, stirring occasionally, for about 2 minutes. Drain and rinse beans. Add to salsa and cumin mixture. Cook, stirring occasionally, until beans are hot, about 3 minutes. Remove from heat.",
+            "3":"Step 3 - In a bowl, combine cilantro and cheese. Place a tortilla in a medium nonstick skillet over medium heat. Top with a quarter of the bean mixture. Sprinkle with a quarter of the cheese.",
+            "4":"Step 4 - Cover with another tortilla. Press down. Brown base, about 2 minutes. Using a large spatula, turn over and brown other side, 2 minutes. Place on a baking sheet and keep warm in the oven.",
+            "5":"Step 5 - Repeat with remaining tortillas. Cut quesadillas into quarters."
             },
      "category":"mexican",
      "img":"https://fr.chatelaine.com/wp-content/uploads/2020/12/Quesadillas-unsplash_800x800.jpg",
@@ -79,10 +82,10 @@
      "time":"1.5hours"
     },
     {
-      "id":"1",
+      "id":"4",
       "title":"Oeufs mimosa",
       "desc":"Oeufs Mimosa, also known as Deviled Eggs in English, is a classic appetizer made by filling hard-boiled egg whites with a seasoned yolk mixture. Here's a detailed recipe to help you create this delightful dish",
-      "ingredient":{"1":"0.25 l d' huile",
+      "ingredients":{"1":"0.25 l d' huile",
                     "2":"persil chopped",
                     "3":"1 small bowl of mayonnaise",
                     "4":"1 cuillère à café de moutarde",
@@ -92,12 +95,13 @@
                     "8":"black olives to decorate the eggs (optional)",
                     "9":"lemon juice (optional)"
                     },
-      "step":{"1":"Cook the eggs in boiling water for 10 minutes, then put them in cold water to stop the cooking process.",
-            "2":"Make a mayonnaise with 1 egg yolk, 1 teaspoon mustard, 1/4 l oil and lemon juice (optional), or use a commercially prepared mayonnaise. The lemon juice is added at the last minute.",
-            "3":"Shell the eggs, cut them lengthwise and separate the whites from the yolks.",
-            "4":"In a shallow dish, crumble the yolks with a fork, mix half of the crumbled yolks with the mayonnaise and set the rest aside.",
-            "5":"Fill the half-eggs with this mixture, then sprinkle each half-egg with the remaining crumbled yolks (which makes the mimosa!!).",
-            "6":"Arrange the eggs on lettuce leaves, sprinkle each egg with parsley and a black olive. Serve chilled."
+      "steps":{
+            "1":"Step 1 - Cook the eggs in boiling water for 10 minutes, then put them in cold water to stop the cooking process.",
+            "2":"Step 2 - Make a mayonnaise with 1 egg yolk, 1 teaspoon mustard, 1/4 l oil and lemon juice (optional), or use a commercially prepared mayonnaise. The lemon juice is added at the last minute.",
+            "3":"Step 3 - Shell the eggs, cut them lengthwise and separate the whites from the yolks.",
+            "4":"Step 4 - In a shallow dish, crumble the yolks with a fork, mix half of the crumbled yolks with the mayonnaise and set the rest aside.",
+            "5":"Step 5 - Fill the half-eggs with this mixture, then sprinkle each half-egg with the remaining crumbled yolks (which makes the mimosa!!).",
+            "6":"Step 6 - Arrange the eggs on lettuce leaves, sprinkle each egg with parsley and a black olive. Serve chilled."
             },
      "category":"french",
      "img":"https://th.bing.com/th/id/OSK.HERO5Oh7tVzuhm7YOHZJ2m21uqVK0Flljncu3-IfxAdaeXM?rs=1&pid=ImgDetMain",
@@ -105,10 +109,10 @@
      "time":"1hour"
     },
     {
-      "id":"2",
+      "id":"5",
       "title":"Tibetan Momo",
       "desc":"Tibetan momos are a type of dumpling native to the Tibetan Plateau. They are a popular dish not only in Tibet but also in neighboring regions like Nepal, Bhutan, and parts of India, especially among the Tibetan diaspora. Here’s an overview of Tibetan momos",
-      "ingredient":{"1":"2 cups all-purpose flour",
+      "ingredients":{"1":"2 cups all-purpose flour",
                     "2":"Water (as needed)",
                     "3":"Pinch of salt",
                     "4":"corriander",
@@ -116,26 +120,27 @@
                     "6":"0.25l of oil",
                     "7":"2 middle size onion"                    
                     },
-      "step":{"1":"Mix the flour and a pinch of salt in a bowl.",
-            "2":"Gradually add water and knead until you form a smooth and elastic dough.",
-            "3":"Cover the dough with a damp cloth and let it rest for at least 30 minutes.",
-            "4":"In a mixing bowl, combine all the filling ingredients.",
-            "5":"Mix well to ensure the seasoning is evenly distributed.",
-            "6":"Divide the dough into small, equal-sized balls.",
-            "7":"Roll each ball into a thin, circular wrapper about 3 inches in diameter.",
-            "8":"Place a spoonful of filling in the center of each wrapper.",
-            "9":"Fold the wrapper over the filling and pinch the edges to seal. You can make pleats for a traditional look or simply press the edges together"
-            },
+      "steps":{
+        "1":"Step 1 - Mix the flour and a pinch of salt in a bowl.",
+        "2":"Step 2 - Gradually add water and knead until you form a smooth and elastic dough.",
+        "3":"Step 3 - Cover the dough with a damp cloth and let it rest for at least 30 minutes.",
+        "4":"Step 4- In a mixing bowl, combine all the filling ingredients.",
+        "5":"Step 5 - Mix well to ensure the seasoning is evenly distributed.",
+        "6":"Step 6 - Divide the dough into small, equal-sized balls.",
+        "7":"Step 7 - Roll each ball into a thin, circular wrapper about 3 inches in diameter.",
+        "8":"Step 8 - Place a spoonful of filling in the center of each wrapper.",
+        "9":"Step 9 - Fold the wrapper over the filling and pinch the edges to seal. You can make pleats for a traditional look or simply press the edges together"
+        },
      "category":"tibetan",
      "img":"https://www.steppestravel.com/app/uploads/2020/05/tibetan-momo.jpg",
      "isFavorite":true,
      "time":"0.2hours"
     },
     {
-      "id":"3",
+      "id":"6",
       "title":"Quesadillas aux haricots noirs",
       "desc":"This vegetarian version of taquitos contains black beans, cream cheese, lime and corn kernels, which are spread in wheat tortillas. They are pan-fried and served with sour cream, green onions and salsa. A Mexican-inspired dish that's perfect during the week, when you're simply looking to eat well.",
-      "ingredient":{"1":"1 red bell pepper",
+      "ingredients":{"1":"1 red bell pepper",
                     "2":"2 tsp. olive oil",
                     "3":"1 onion, finely chopped",
                     "4":"2 garlic cloves, finely minced",
@@ -145,11 +150,12 @@
                     "8":"250 ml (1 cup) mixed cheddar and Monterey Jack cheeses, grated",
                     "9":"8 whole-wheat tortillas, 17.5 cm (7 in.) long"                    
                     },
-      "step":{"1":"Preheat oven to 180°C (350°F). Peel and seed peppers and cut into 0.5 cm (1/4) cubes. Heat oil in a large skillet over medium heat. Add onion. Cook, stirring often, until softened, about 3 minutes.",
-            "2":"Stir in bell pepper and garlic. Cook, stirring occasionally, for about 2 minutes. Drain and rinse beans. Add to salsa and cumin mixture. Cook, stirring occasionally, until beans are hot, about 3 minutes. Remove from heat.",
-            "3":"In a bowl, combine cilantro and cheese. Place a tortilla in a medium nonstick skillet over medium heat. Top with a quarter of the bean mixture. Sprinkle with a quarter of the cheese.",
-            "4":"Cover with another tortilla. Press down. Brown base, about 2 minutes. Using a large spatula, turn over and brown other side, 2 minutes. Place on a baking sheet and keep warm in the oven.",
-            "5":"Repeat with remaining tortillas. Cut quesadillas into quarters."
+      "steps":{
+            "1":"Step 1 - Preheat oven to 180°C (350°F). Peel and seed peppers and cut into 0.5 cm (1/4) cubes. Heat oil in a large skillet over medium heat. Add onion. Cook, stirring often, until softened, about 3 minutes.",
+            "2":"Step 2 - Stir in bell pepper and garlic. Cook, stirring occasionally, for about 2 minutes. Drain and rinse beans. Add to salsa and cumin mixture. Cook, stirring occasionally, until beans are hot, about 3 minutes. Remove from heat.",
+            "3":"Step 3 - In a bowl, combine cilantro and cheese. Place a tortilla in a medium nonstick skillet over medium heat. Top with a quarter of the bean mixture. Sprinkle with a quarter of the cheese.",
+            "4":"Step 4 - Cover with another tortilla. Press down. Brown base, about 2 minutes. Using a large spatula, turn over and brown other side, 2 minutes. Place on a baking sheet and keep warm in the oven.",
+            "5":"Step 5 - Repeat with remaining tortillas. Cut quesadillas into quarters."
             },
      "category":"mexican",
      "img":"https://fr.chatelaine.com/wp-content/uploads/2020/12/Quesadillas-unsplash_800x800.jpg",
@@ -157,10 +163,10 @@
      "time":"1.5hours"
     },
     {
-      "id":"1",
+      "id":"7",
       "title":"Oeufs mimosa",
       "desc":"Oeufs Mimosa, also known as Deviled Eggs in English, is a classic appetizer made by filling hard-boiled egg whites with a seasoned yolk mixture. Here's a detailed recipe to help you create this delightful dish",
-      "ingredient":{"1":"0.25 l d' huile",
+      "ingredients":{"1":"0.25 l d' huile",
                     "2":"persil chopped",
                     "3":"1 small bowl of mayonnaise",
                     "4":"1 cuillère à café de moutarde",
@@ -170,23 +176,24 @@
                     "8":"black olives to decorate the eggs (optional)",
                     "9":"lemon juice (optional)"
                     },
-      "step":{"1":"Cook the eggs in boiling water for 10 minutes, then put them in cold water to stop the cooking process.",
-            "2":"Make a mayonnaise with 1 egg yolk, 1 teaspoon mustard, 1/4 l oil and lemon juice (optional), or use a commercially prepared mayonnaise. The lemon juice is added at the last minute.",
-            "3":"Shell the eggs, cut them lengthwise and separate the whites from the yolks.",
-            "4":"In a shallow dish, crumble the yolks with a fork, mix half of the crumbled yolks with the mayonnaise and set the rest aside.",
-            "5":"Fill the half-eggs with this mixture, then sprinkle each half-egg with the remaining crumbled yolks (which makes the mimosa!!).",
-            "6":"Arrange the eggs on lettuce leaves, sprinkle each egg with parsley and a black olive. Serve chilled."
-            },
+      "steps":{
+        "1":"Step 1 - Cook the eggs in boiling water for 10 minutes, then put them in cold water to stop the cooking process.",
+        "2":"Step 2 - Make a mayonnaise with 1 egg yolk, 1 teaspoon mustard, 1/4 l oil and lemon juice (optional), or use a commercially prepared mayonnaise. The lemon juice is added at the last minute.",
+        "3":"Step 3 - Shell the eggs, cut them lengthwise and separate the whites from the yolks.",
+        "4":"Step 4 - In a shallow dish, crumble the yolks with a fork, mix half of the crumbled yolks with the mayonnaise and set the rest aside.",
+        "5":"Step 5 - Fill the half-eggs with this mixture, then sprinkle each half-egg with the remaining crumbled yolks (which makes the mimosa!!).",
+        "6":"Step 6 - Arrange the eggs on lettuce leaves, sprinkle each egg with parsley and a black olive. Serve chilled."
+        },
      "category":"french",
      "img":"https://th.bing.com/th/id/OSK.HERO5Oh7tVzuhm7YOHZJ2m21uqVK0Flljncu3-IfxAdaeXM?rs=1&pid=ImgDetMain",
      "isFavorite":false,
      "time":"1hour"
     },
     {
-      "id":"2",
+      "id":"8",
       "title":"Tibetan Momo",
       "desc":"Tibetan momos are a type of dumpling native to the Tibetan Plateau. They are a popular dish not only in Tibet but also in neighboring regions like Nepal, Bhutan, and parts of India, especially among the Tibetan diaspora. Here’s an overview of Tibetan momos",
-      "ingredient":{"1":"2 cups all-purpose flour",
+      "ingredients":{"1":"2 cups all-purpose flour",
                     "2":"Water (as needed)",
                     "3":"Pinch of salt",
                     "4":"corriander",
@@ -194,26 +201,27 @@
                     "6":"0.25l of oil",
                     "7":"2 middle size onion"                    
                     },
-      "step":{"1":"Mix the flour and a pinch of salt in a bowl.",
-            "2":"Gradually add water and knead until you form a smooth and elastic dough.",
-            "3":"Cover the dough with a damp cloth and let it rest for at least 30 minutes.",
-            "4":"In a mixing bowl, combine all the filling ingredients.",
-            "5":"Mix well to ensure the seasoning is evenly distributed.",
-            "6":"Divide the dough into small, equal-sized balls.",
-            "7":"Roll each ball into a thin, circular wrapper about 3 inches in diameter.",
-            "8":"Place a spoonful of filling in the center of each wrapper.",
-            "9":"Fold the wrapper over the filling and pinch the edges to seal. You can make pleats for a traditional look or simply press the edges together"
-            },
+      "steps":{
+        "1":"Step 1 - Mix the flour and a pinch of salt in a bowl.",
+        "2":"Step 2 - Gradually add water and knead until you form a smooth and elastic dough.",
+        "3":"Step 3 - Cover the dough with a damp cloth and let it rest for at least 30 minutes.",
+        "4":"Step 4- In a mixing bowl, combine all the filling ingredients.",
+        "5":"Step 5 - Mix well to ensure the seasoning is evenly distributed.",
+        "6":"Step 6 - Divide the dough into small, equal-sized balls.",
+        "7":"Step 7 - Roll each ball into a thin, circular wrapper about 3 inches in diameter.",
+        "8":"Step 8 - Place a spoonful of filling in the center of each wrapper.",
+        "9":"Step 9 - Fold the wrapper over the filling and pinch the edges to seal. You can make pleats for a traditional look or simply press the edges together"
+        },
      "category":"tibetan",
      "img":"https://www.steppestravel.com/app/uploads/2020/05/tibetan-momo.jpg",
      "isFavorite":true,
      "time":"0.2hours"
     },
     {
-      "id":"3",
+      "id":"9",
       "title":"Quesadillas aux haricots noirs",
       "desc":"This vegetarian version of taquitos contains black beans, cream cheese, lime and corn kernels, which are spread in wheat tortillas. They are pan-fried and served with sour cream, green onions and salsa. A Mexican-inspired dish that's perfect during the week, when you're simply looking to eat well.",
-      "ingredient":{"1":"1 red bell pepper",
+      "ingredients":{"1":"1 red bell pepper",
                     "2":"2 tsp. olive oil",
                     "3":"1 onion, finely chopped",
                     "4":"2 garlic cloves, finely minced",
@@ -223,11 +231,12 @@
                     "8":"250 ml (1 cup) mixed cheddar and Monterey Jack cheeses, grated",
                     "9":"8 whole-wheat tortillas, 17.5 cm (7 in.) long"                    
                     },
-      "step":{"1":"Preheat oven to 180°C (350°F). Peel and seed peppers and cut into 0.5 cm (1/4) cubes. Heat oil in a large skillet over medium heat. Add onion. Cook, stirring often, until softened, about 3 minutes.",
-            "2":"Stir in bell pepper and garlic. Cook, stirring occasionally, for about 2 minutes. Drain and rinse beans. Add to salsa and cumin mixture. Cook, stirring occasionally, until beans are hot, about 3 minutes. Remove from heat.",
-            "3":"In a bowl, combine cilantro and cheese. Place a tortilla in a medium nonstick skillet over medium heat. Top with a quarter of the bean mixture. Sprinkle with a quarter of the cheese.",
-            "4":"Cover with another tortilla. Press down. Brown base, about 2 minutes. Using a large spatula, turn over and brown other side, 2 minutes. Place on a baking sheet and keep warm in the oven.",
-            "5":"Repeat with remaining tortillas. Cut quesadillas into quarters."
+      "steps":{
+            "1":"Step 1 - Preheat oven to 180°C (350°F). Peel and seed peppers and cut into 0.5 cm (1/4) cubes. Heat oil in a large skillet over medium heat. Add onion. Cook, stirring often, until softened, about 3 minutes.",
+            "2":"Step 2 - Stir in bell pepper and garlic. Cook, stirring occasionally, for about 2 minutes. Drain and rinse beans. Add to salsa and cumin mixture. Cook, stirring occasionally, until beans are hot, about 3 minutes. Remove from heat.",
+            "3":"Step 3 - In a bowl, combine cilantro and cheese. Place a tortilla in a medium nonstick skillet over medium heat. Top with a quarter of the bean mixture. Sprinkle with a quarter of the cheese.",
+            "4":"Step 4 - Cover with another tortilla. Press down. Brown base, about 2 minutes. Using a large spatula, turn over and brown other side, 2 minutes. Place on a baking sheet and keep warm in the oven.",
+            "5":"Step 5 - Repeat with remaining tortillas. Cut quesadillas into quarters."
             },
      "category":"mexican",
      "img":"https://fr.chatelaine.com/wp-content/uploads/2020/12/Quesadillas-unsplash_800x800.jpg",

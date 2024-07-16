@@ -1,13 +1,11 @@
-import { JSXElementConstructor, ReactElement, ReactNode, ReactPortal, useEffect, useState } from "react";
+import { JSXElementConstructor, Key, ReactElement, ReactNode, ReactPortal, useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 
 interface Data {
     id: string;
     title: string;
     desc: string;
-    ingredients: {
-        id: string;
-    };
+    ingredients:  { [key: string]: string };
     step: {
         id: string;
     }
@@ -44,7 +42,7 @@ export default function RecipeCard() {
         }
         fetchData();
          
-    });
+    },[]);
     
     useEffect(() => {
         //this code runs only when shouldFetch is true (false by default) which means we have typed something in our search bar        
@@ -70,7 +68,6 @@ export default function RecipeCard() {
     
     useEffect(() => {
         if (datas) {
-            console.log('SearchtedString is ' +searchTxt)
             const filtered = datas.filter((item: { title: string; }) => item.title.toLowerCase().includes(searchTxt));
             setRes(filtered);
             console.log(res)
@@ -100,9 +97,9 @@ export default function RecipeCard() {
         {/* <p>Current value: {inputValue}</p> */}
       </div>
         <div className="CardContainer">
-        {res.map((data: {id:string, img: string | undefined; title: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | null | undefined; time: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | null | undefined; }) => (
+        {res.map((data: {id: Key | null | undefined, img: string | undefined; title: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | null | undefined; time: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | null | undefined; }) => (
 
-        <div className="card">
+        <div className="card" key={data.id}>
             <img src={data.img} alt="Example Image" className="card-image" />
             <div className="card-content">
                 <h2 className="card-title">{data.title}</h2>
