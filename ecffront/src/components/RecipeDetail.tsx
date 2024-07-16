@@ -46,41 +46,43 @@ export default function RecipeDetail() {
     return (<>
        <NavBar />
         <section className="mainContainer">
-            <h1  style={{ textAlign: 'center' }}>Details of the Recipe </h1>
+            <h1  className="title">Details of the Recipe </h1>
           
             {resRecipe && (
-                    <div className="detailContainer">
-                        <img src={resRecipe.img} alt={resRecipe.title} className="imgDetail" />
-                        <div className="infoRecipe">
-                            <h2>{resRecipe.title}</h2>
-                            <br />
-                            <h3>Time :- {resRecipe.time}</h3>
-                            <h4>Category:- {resRecipe.category?.toUpperCase()}</h4>
-                            <p className="desc">{resRecipe.desc}</p>
-                            <ul>INGREDIENTS -<br />
-                                {resRecipe.ingredients ? (
-                                Object.keys(resRecipe.ingredients).map((key) => (
-                                <li key={key}  className="list">
-                                {resRecipe.ingredients[key]}
-                                </li>
-                                ))
-                                ) : (
-                                <li>No ingredients found</li>
-                                )}
-                        </ul><br />
-                        <ul >STEPS -<br/>
-                                {resRecipe.steps ? (
-                                Object.keys(resRecipe.steps).map((key) => (
-                                <li key={key}  className="list">
-                                {resRecipe.steps[key]}
-                                </li>
-                                ))
-                                ) : (
-                                <li>No steps found</li>
-                                )}
-                            </ul>
-                        </div>
+                    <><div className="detailContainer">
+                    <img src={resRecipe.img} alt={resRecipe.title} className="imgDetail" />
+                    <div className="infoRecipe">
+                        <h2>{resRecipe.title}</h2>
+                        <br />
+                        <h3>Time :- {resRecipe.time}</h3>
+                        <h4>Category:- {resRecipe.category?.toUpperCase()}</h4>
+                        <p className="desc">{resRecipe.desc}</p>
                     </div>
+                </div><div className="additionalInfo">
+                        <ul>INGREDIENTS -<br />
+                            {resRecipe.ingredients ? (
+                                Object.keys(resRecipe.ingredients).map((key) => (
+                                    <li key={key} className="list">
+                                        {resRecipe.ingredients[key]}
+                                    </li>
+                                ))
+                            ) : (
+                                <li>No ingredients found</li>
+                            )}
+                        </ul><br />
+                        <ul>STEPS -<br />
+                            {resRecipe.steps ? (
+                                Object.keys(resRecipe.steps).map((key) => (
+                                    <li key={key} className="list">
+                                        {resRecipe.steps[key]}
+                                    </li>
+                                ))
+                            ) : (
+                                <li>No steps found</li>
+                            )}
+                        </ul>
+                    </div></>  
+                   
             )}
            
         </section>
