@@ -19,7 +19,7 @@ export default function NavBar() {
 
                             Today's Special
                         </NavLink>
-                        <NavLink to='/favorites' className="NavList">
+                        <NavLink to='/favorite' className="NavList">
                         <img src="https://api.iconify.design/uil:favorite.svg?color=%23888888" alt="favorite" className="imgNav" /><br></br>
                             Your Favorites 
                         </NavLink>

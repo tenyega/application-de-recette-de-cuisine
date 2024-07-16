@@ -1,4 +1,5 @@
 import { JSXElementConstructor, ReactElement, ReactNode, ReactPortal, useEffect, useState } from "react";
+import { NavLink } from "react-router-dom";
 
 interface Data {
     id: string;
@@ -49,7 +50,7 @@ export default function RecipeCard() {
         //this code runs only when shouldFetch is true (false by default) which means we have typed something in our search bar        
           async function fetchData() {
               try {
-                  const response = await fetch('https://json-server-vercel-two-kappa.vercel.app/todo');
+                  const response = await fetch('http://localhost:3000/recipe');
                   setDatas(await response.json()) ; 
                   if (datas) {
                       setRes(datas);
@@ -99,7 +100,7 @@ export default function RecipeCard() {
         {/* <p>Current value: {inputValue}</p> */}
       </div>
         <div className="CardContainer">
-        {res.map((data: { img: string | undefined; title: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | null | undefined; time: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | null | undefined; }) => (
+        {res.map((data: {id:string, img: string | undefined; title: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | null | undefined; time: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | null | undefined; }) => (
 
         <div className="card">
             <img src={data.img} alt="Example Image" className="card-image" />
@@ -107,10 +108,9 @@ export default function RecipeCard() {
                 <h2 className="card-title">{data.title}</h2>
                 <p className="card-time">{data.time}</p>
                 </div>
-               
-            <button className="btnDetails">
+                <NavLink to={`/recipedetail/${data.id}`} className="btnDetails">
             Details <img src="https://api.iconify.design/material-symbols:arrow-forward-rounded.svg?color=%23888888" alt="launch" />        
-                    </button>
+                    </NavLink>
                    
         </div>
         ))}

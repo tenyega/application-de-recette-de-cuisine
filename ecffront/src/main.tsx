@@ -10,6 +10,7 @@ import RecipeForm from './components/RecipeForm';
 import RecipeList from './components/RecipeList';
 import RecipeDetail from './components/RecipeDetail';
 import FavoriteRecipe from './components/FavoriteRecipe';
+import TodaysSpecial from './components/TodaysSpecial';
 //Creation of router
 const router = createBrowserRouter([
   {
@@ -24,12 +25,16 @@ const router = createBrowserRouter([
     element: <RecipeList />
   },
   {
-    path: "/recipedetail",
+    path: "/recipedetail/:id",
     element: <RecipeDetail />
   },
   {
     path: "/favorite",
     element: <FavoriteRecipe/>
+  },
+  {
+    path: "/special",
+    element: <TodaysSpecial/>
   }
 
 ]);

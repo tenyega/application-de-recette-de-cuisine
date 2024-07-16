@@ -88,10 +88,10 @@ li {
 .loop {
   position: absolute;
   top: 50%;
-  right: 365px; /* Adjust based on desired icon position */
+  right: 365px;
   transform: translateY(-50%);
-  color: #888; /* Adjust icon color */
-  font-size: 18px; /* Adjust icon size */
+  color: #888;
+  font-size: 18px;
 }
 
 /*Recipe Card*/
@@ -101,6 +101,8 @@ li {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 2rem;
+  justify-content: center;
+  align-items: center;
   margin: 0.2rem;
   padding: 0.5rem;
 }
@@ -114,7 +116,7 @@ li {
 
 .card-image {
   width: 100%;
-  height: 200px; /* Adjust height as needed */
+  height: 200px;
   object-fit: cover;
 }
 
@@ -132,32 +134,37 @@ li {
   font-size: 0.9rem;
 }
 
-/* .btnDetails {
-  color: white;
-  align-self: right;
-} */
 .btnDetails {
   position: relative;
-  display: inline-flex; /* Use flexbox for centering */
-  align-items: center; /* Center items vertically */
-  justify-content: center; /* Center items horizontally */
-  padding: 10px 20px; /* Adjust padding as needed */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
   background-color: #65558f;
-  color: #fff; /* Example text color */
+  color: #fff;
   border: none;
   border-radius: 15px;
   cursor: pointer;
 }
 .btnDetails img {
-  margin-left: 5px; /* Adjust margin between text and icon */
+  margin-left: 5px;
 }
 .card {
   position: relative;
-  height: 400px; /* Example height of container */
+  height: 400px;
 }
 
 .btnDetails {
   position: absolute;
-  bottom: 20px; /* Adjust distance from bottom */
-  right: 20px; /* Adjust distance from right */
+  bottom: 20px;
+  right: 20px;
+}
+
+/* Recipe Detail */
+.detailContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
