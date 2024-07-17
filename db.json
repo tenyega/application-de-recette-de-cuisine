@@ -80,7 +80,7 @@
         "8": "Step 8 - Place a spoonful of filling in the center of each wrapper.",
         "9": "Step 9 - Fold the wrapper over the filling and pinch the edges to seal. You can make pleats for a traditional look or simply press the edges together"
       },
-      "category": "plat",
+      "category": "main course",
       "type":"tibetan",
       "img": "https://www.steppestravel.com/app/uploads/2020/05/tibetan-momo.jpg",
       "time": "0.2hours"
@@ -164,8 +164,8 @@
         "8": "Step 8 - Place a spoonful of filling in the center of each wrapper.",
         "9": "Step 9 - Fold the wrapper over the filling and pinch the edges to seal. You can make pleats for a traditional look or simply press the edges together"
       },
-      "category": "plat",
-      "type":"tibetan",
+      "category": "main course",
+      "type":"asian",
       "img": "https://www.steppestravel.com/app/uploads/2020/05/tibetan-momo.jpg",
       "time": "0.2hours"
     },
@@ -248,7 +248,7 @@
         "8": "Step 8 - Place a spoonful of filling in the center of each wrapper.",
         "9": "Step 9 - Fold the wrapper over the filling and pinch the edges to seal. You can make pleats for a traditional look or simply press the edges together"
       },
-      "category": "plat",
+      "category": "main course",
       "type":"tibetan",
       "img": "https://www.steppestravel.com/app/uploads/2020/05/tibetan-momo.jpg",
       "time": "0.2hours"
