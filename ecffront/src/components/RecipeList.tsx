@@ -83,7 +83,11 @@ export default function RecipeCard() {
     const optionsType: OptionType[] = [
         { id: 1, label: 'Mexican' },
         { id: 2, label: 'French' },
-        { id: 3, label: 'Asian' }
+      { id: 3, label: 'Asian' },
+      { id: 4, label: 'Italian' },
+      { id: 5, label: 'American' }
+
+
       ];
     
       const [selectedOptionsType, setSelectedOptionsType] = useState<OptionType[]>([]);

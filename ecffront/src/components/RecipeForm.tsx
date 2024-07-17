@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import NavBar from './Navbar';
 
 
@@ -16,6 +16,7 @@ export interface Recipe {
 }
 
 export interface RecipeFormData {
+  id:string,
   title: string;
   desc: string;
   category: string;
@@ -25,8 +26,23 @@ export interface RecipeFormData {
   ingredients: string;
   steps: string;
 }
+
+interface Data {
+  id: string;
+  title: string;
+  desc: string;
+  ingredients:  { [key: string]: string };
+  step:  { [key: string]: string };
+  category: string;
+  img: string;
+  type: string;
+}
+interface Datas {
+datas: Data[];
+}
 const RecipeForm= () => {
   const [formData, setFormData] = useState<RecipeFormData>({
+    id:'',
     title: '',
     desc: '',
     category: '',
@@ -36,6 +52,7 @@ const RecipeForm= () => {
     ingredients: '',
     steps: '',
   });
+  const [datas, setDatas] = useState<Datas | any>();
   const [msg, setMsg] = useState('');
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     const { name, value } = e.target;
@@ -45,7 +62,19 @@ const RecipeForm= () => {
     }));
   };
 
-  
+  useEffect(() => {
+    const fetchRecipes = async () => {
+      try {
+        const response = await fetch('http://localhost:3000/recipe');
+        const data = await response.json();
+        setDatas(data); // Assuming 'data' is an array of Recipe objects
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      }
+    };
+
+    fetchRecipes();
+  }, []);
 
   const handleFormSubmit = async(e: React.FormEvent) => {
     e.preventDefault();
@@ -54,7 +83,7 @@ const RecipeForm= () => {
     const { ingredients, steps, ...rest } = formData;
     const recipe: Recipe = {
       ...rest,
-      id: generateId(), // Replace with your own id generation logic
+      id: datas.length.toString(), // Replace with your own id generation logic
       ingredients: ingredients.split('\n').map((item: string) => item.trim()),
       steps: steps.split('\n').map((item: string) => item.trim()),
      
@@ -80,6 +109,7 @@ const RecipeForm= () => {
 
 
       setFormData({
+        id:'',
         title: '',
         desc: '',
         category: '',
@@ -95,10 +125,7 @@ const RecipeForm= () => {
     }
   };
 
-  // Function to generate a unique id (you may replace this with your own logic)
-  const generateId = (): string => {
-    return Math.random().toString(36).substr(2, 9);
-  };
+
 
   return (<>
     <NavBar />

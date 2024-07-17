@@ -85,7 +85,7 @@
       "time": "0.2hours"
     },
     {
-      "id": "11",
+      "id": "3",
       "title": "Chicken Alfredo Pasta",
       "desc": "A classic Italian-American dish made with fettuccine pasta tossed in a rich and creamy Alfredo sauce with chicken pieces, garlic, and Parmesan cheese.",
       "ingredients": {
@@ -111,7 +111,7 @@
       "time": "30 minutes"
     },
     {
-      "id": "12",
+      "id": "4",
       "title": "Classic Beef Tacos",
       "desc": "Ground beef tacos seasoned with a blend of spices, served in crispy taco shells and topped with lettuce, cheese, and salsa.",
       "ingredients": {
@@ -136,7 +136,7 @@
       "time": "20 minutes"
     },
     {
-      "id": "13",
+      "id": "5",
       "title": "Chocolate Chip Cookies",
       "desc": "Classic chewy and soft chocolate chip cookies with a perfect balance of sweetness and chocolate chips.",
       "ingredients": {
@@ -164,7 +164,7 @@
       "time": "25 minutes"
     },
     {
-      "id": "14",
+      "id": "6",
       "title": "Caesar Salad",
       "desc": "A classic Caesar salad with romaine lettuce, Parmesan cheese, croutons, and Caesar dressing.",
       "ingredients": {
@@ -185,7 +185,7 @@
       "time": "15 minutes"
     },
     {
-      "id": "15",
+      "id": "7",
       "title": "Classic Tiramisu",
       "desc": "A traditional Italian dessert made with layers of coffee-soaked ladyfingers and a rich mascarpone cheese mixture, topped with cocoa powder.",
       "ingredients": {
@@ -213,7 +213,7 @@
       "time": "6 hours"
     },
     {
-      "id": "16",
+      "id": "8",
       "title": "Lemon Bars",
       "desc": "Sweet and tangy lemon bars with a buttery crust and a rich lemon filling, dusted with powdered sugar.",
       "ingredients": {
@@ -237,7 +237,65 @@
       "time": "45 minutes"
     },
     {
-      "id": "bpyij1x4k",
+      "id": "9",
+      "title": "Coq au Vin",
+      "desc": "Coq au vin is a classic French dish of chicken braised with wine, mushrooms, and optionally garlic. A perfect comfort food with rich flavors.",
+      "ingredients": {
+        "1": "1 whole chicken, cut into pieces",
+        "2": "200g bacon, diced",
+        "3": "250g mushrooms, sliced",
+        "4": "3 shallots, chopped",
+        "5": "2 cloves garlic, minced",
+        "6": "750ml red wine (preferably Burgundy)",
+        "7": "250ml chicken broth",
+        "8": "2 tbsp tomato paste",
+        "9": "2 tbsp butter",
+        "10": "2 tbsp all-purpose flour",
+        "11": "Salt and pepper to taste",
+        "12": "Fresh parsley for garnish"
+      },
+      "steps": {
+        "1": "Step 1 - In a large Dutch oven, cook bacon over medium heat until crisp. Remove bacon and set aside, leaving drippings in the pot.",
+        "2": "Step 2 - Season chicken pieces with salt and pepper. Brown chicken in the bacon drippings on all sides. Remove chicken and set aside.",
+        "3": "Step 3 - Add butter to the pot and sauté shallots and garlic until softened.",
+        "4": "Step 4 - Stir in flour and cook for 1-2 minutes. Slowly add red wine and chicken broth, stirring constantly.",
+        "5": "Step 5 - Return chicken and bacon to the pot. Add mushrooms and tomato paste. Bring to a simmer, cover, and cook over low heat for 1.5 to 2 hours, until chicken is tender.",
+        "6": "Step 6 - Adjust seasoning with salt and pepper. Garnish with chopped parsley before serving."
+      },
+      "category": "main course",
+      "type": "french",
+      "img": "https://www.hospitalityhedonist.co.za/wp-content/uploads/2019/02/joe-lingeman-2-1080x1350.jpg",
+      "time": "2 hours"
+    },
+    {
+      "id": "10",
+      "title": "Crème Brûlée",
+      "desc": "Crème brûlée is a rich and creamy French dessert consisting of a smooth custard base topped with a layer of caramelized sugar.",
+      "ingredients": {
+        "1": "500ml heavy cream",
+        "2": "6 large egg yolks",
+        "3": "100g granulated sugar",
+        "4": "1 vanilla bean or 1 tsp vanilla extract",
+        "5": "Extra sugar for caramelizing"
+      },
+      "steps": {
+        "1": "Step 1 - Preheat oven to 150°C (300°F). Place 6 ramekins in a deep baking dish.",
+        "2": "Step 2 - In a saucepan, heat the cream and vanilla bean (if using) over medium heat until just simmering. Remove from heat and let it sit for 10 minutes to infuse.",
+        "3": "Step 3 - In a bowl, whisk together egg yolks and sugar until well combined and slightly pale in color.",
+        "4": "Step 4 - Slowly pour the warm cream mixture into the egg yolk mixture, whisking constantly.",
+        "5": "Step 5 - Strain the mixture through a fine-mesh sieve into a clean bowl. Divide the custard evenly among the ramekins.",
+        "6": "Step 6 - Pour hot water into the baking dish to come halfway up the sides of the ramekins. Bake for 35-40 minutes, until the custards are set but still slightly jiggly in the center.",
+        "7": "Step 7 - Remove from the oven and let them cool to room temperature. Refrigerate for at least 2 hours, or overnight.",
+        "8": "Step 8 - Just before serving, sprinkle a thin, even layer of sugar on top of each custard. Caramelize the sugar using a kitchen torch or under a broiler until golden brown and crispy.",
+        "9": "Step 9 - Let the crème brûlée sit for a few minutes to allow the caramelized sugar to harden. Serve immediately."
+      },
+      "category": "dessert",
+      "type": "french",
+      "img": "https://www.parisperfect.com/blog/wp-content/uploads/2017/11/FO-156263555-creme-brulee-spoon.jpg",
+      "time": "3 hours"
+    },
+    {
+      "id": "11",
       "ingredients": [
         "floor",
         "salt",
@@ -257,7 +315,7 @@
       "time": "0.15hours"
     },
     {
-      "id": "6uljm5i8f",
+      "id": "12",
       "title": "momo fry",
       "desc": "momo declious fry momo",
       "category": "main course",
@@ -276,6 +334,39 @@
         "sdfkjds",
         "lfjdlkjsl lsdjflksd",
         "new line"
+      ]
+    },
+    {
+      "id": "13",
+      "title": "Bœuf Bourguignon",
+      "desc": "Bœuf Bourguignon is a classic French beef stew braised in red wine, flavored with onions, carrots, garlic, and a bouquet garni. It's hearty, rich, and deeply flavorful.",
+      "category": "main course",
+      "type": "french",
+      "img": "https://th.bing.com/th/id/R.b1f9969daa1ba78290f0282b1af06755?rik=Y6xkqwtA%2fDUYKA&pid=ImgRaw&r=0",
+      "time": "3 hours",
+      "ingredients": [
+        "1 kg beef chuck roast, cut into cubes",
+        "200g bacon, diced",
+        "250g mushrooms quartered",
+        "3 carrots, sliced",
+        "2 onions, chopped",
+        "4 cloves garlic minced",
+        "750ml red wine (preferably Burgundy)",
+        "250ml beef broth",
+        "2 tbsp tomato paste",
+        "2 tbsp all-purpose flour",
+        "2 tbsp butter",
+        "1 bouquet garni (thyme, bay leaves, parsley tied together)",
+        "Salt and pepper to taste",
+        "Fresh parsley for garnish"
+      ],
+      "steps": [
+        "In a large Dutch oven, cook bacon over medium heat until crisp. Remove bacon and set aside, leaving drippings in the pot.",
+        "Step 2 - Season beef cubes with salt and pepper. Brown beef in the bacon drippings on all sides. Remove beef and set aside.",
+        "Step 3 - Add butter to the pot and sauté onions, carrots, and garlic until softened.",
+        "Step 4 - Stir in flour and cook for 1-2 minutes. Slowly add red wine and beef broth, stirring constantly.",
+        "Step 5 - Return beef and bacon to the pot. Add mushrooms, tomato paste, and bouquet garni. Bring to a simmer, cover, and cook over low heat for 2 to 2.5 hours, until beef is tender.",
+        "Step 6 - Adjust seasoning with salt and pepper. Garnish with chopped parsley before serving."
       ]
     }
   ]
