@@ -130,60 +130,59 @@ const RecipeForm= () => {
   return (<>
     <NavBar />
     <h1 className='title'> Add a new Recipe </h1>
-    <form onSubmit={handleFormSubmit}>
+    <form className="form" onSubmit={handleFormSubmit}>
       <div className="formContainer">
         <div className="first">
-      <div className='formTitle'>
-        <label htmlFor="title">Title:</label><br />
-        <input type="text" id="title" name="title" value={formData.title} onChange={handleInputChange} required /><br /><br />
-      </div>
-      <div className='formDesc'>
-        <label htmlFor="desc">Description:</label><br />
-        <textarea id="desc" name="desc" rows={4} value={formData.desc} onChange={handleInputChange} required></textarea><br /><br />
-      </div>
-    
-          
-      <div className='formCat'>
-              <label htmlFor="category">Category:</label><br />
-              <select id="category" name="category" value={formData.category} onChange={handleInputChange} required>
-                <option value="">Select a category</option>
-                <option value="starter">Starter</option>
-                <option value="main course">Main Course</option>
-                <option value="desert">Desert</option>
+          <div className='formTitle'>
+            <label htmlFor="title">Title:</label><br />
+            <input type="text" id="title" name="title" className='formInput' value={formData.title} onChange={handleInputChange} required /><br /><br />
+          </div>
+          <div className='formDesc'>
+            <label htmlFor="desc">Description:</label><br />
+            <textarea id="desc" name="desc" rows={4}  className='formInput' value={formData.desc} onChange={handleInputChange} required></textarea><br /><br />
+          </div>
+          <div className='formCat'>
+            <label htmlFor="category">Category:</label><br />
+            <select id="category" name="category" value={formData.category} onChange={handleInputChange} required>
+              <option value="">Select a category</option>
+              <option value="starter">Starter</option>
+              <option value="main course">Main Course</option>
+              <option value="dessert">Dessert</option>
             </select>
-            
-           </div>  <div className='formType'>
-              <label htmlFor="type">Type of Cuisine:</label><br />
-              <select id="type" name="type" value={formData.type} onChange={handleInputChange} required>
-                <option value="">Select Type</option>
-                <option value="asian">Asian</option>
-                <option value="french">French</option>
-                <option value="mexican">Mexican</option>
+          </div>
+          <div className='formType'>
+            <label htmlFor="type">Type of Cuisine:</label><br />
+            <select id="type" name="type" value={formData.type} onChange={handleInputChange} required>
+              <option value="">Select Type</option>
+              <option value="asian">Asian</option>
+              <option value="american">American</option>
+              <option value="italian">Italian</option>
+              <option value="french">French</option>
+              <option value="mexican">Mexican</option>
+
             </select>
-            
-           </div> 
-   
-      <div className='formImg'>
-        <label htmlFor="img">Image URL:</label><br />
-        <input type="text" id="img" name="img" value={formData.img} onChange={handleInputChange} required /><br /><br />
-      </div>
-      <div className='formTime'>
-        <label htmlFor="time">Time:</label><br />
-        <input type="text" id="time" name="time" value={formData.time} onChange={handleInputChange} required /><br /><br />
-        </div>
+          </div>
+          <div className='formImg'>
+            <label htmlFor="img">Image URL:</label><br />
+            <input type="text" id="img" name="img" className='formInput' value={formData.img} onChange={handleInputChange} required /><br /><br />
+          </div>
+          <div className='formTime'>
+            <label htmlFor="time">Time:</label><br />
+            <input type="text" id="time" name="time" className='formInput' value={formData.time} onChange={handleInputChange} required /><br /><br />
+          </div>
         </div>
         <div className="second">
-      <div className='formIngredients'>
-        <label htmlFor="ingredients">Ingredients (each on a new line):</label><br />
-        <textarea id="ingredients" name="ingredients" rows={6} value={formData.ingredients} onChange={handleInputChange} required></textarea><br /><br />
-      </div>
-      <div className='formSteps'>
-        <label htmlFor="steps">Steps (each on a new line):</label><br />
-        <textarea id="steps" name="steps" rows={10} value={formData.steps} onChange={handleInputChange} required></textarea><br /><br />
-      </div>
-      <button className='submit' type="submit">Add Recipe
-        <img src='https://api.iconify.design/formkit:submit.svg?color=%23888888' alt='submit' />
-        </button>
+          <div className='formIngredients'>
+            <label htmlFor="ingredients">Ingredients (each on a new line):</label><br />
+            <textarea id="ingredients" name="ingredients" rows={6} value={formData.ingredients} onChange={handleInputChange} required></textarea><br /><br />
+          </div>
+          <div className='formSteps'>
+            <label htmlFor="steps">Steps (each on a new line):</label><br />
+            <textarea id="steps" name="steps" rows={10} value={formData.steps} onChange={handleInputChange} required></textarea><br /><br />
+          </div>
+          <button className='submit' type="submit">Add Recipe
+            <img src='https://api.iconify.design/formkit:submit.svg?color=%23888888' alt='submit' />
+          </button>
         </div>
       </div>
     </form>

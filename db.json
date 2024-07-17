@@ -25,7 +25,7 @@
       "category": "starter",
       "type": "mexican",
       "img": "https://fr.chatelaine.com/wp-content/uploads/2020/12/Quesadillas-unsplash_800x800.jpg",
-      "time": "1.5hours"
+      "time": "1.5 hours"
     },
     {
       "id": "1",
@@ -53,7 +53,7 @@
       "category": "starter",
       "type": "french",
       "img": "https://th.bing.com/th/id/OSK.HERO5Oh7tVzuhm7YOHZJ2m21uqVK0Flljncu3-IfxAdaeXM?rs=1&pid=ImgDetMain",
-      "time": "1hour"
+      "time": "1 hour"
     },
     {
       "id": "2",
@@ -82,7 +82,7 @@
       "category": "main course",
       "type": "asian",
       "img": "https://www.steppestravel.com/app/uploads/2020/05/tibetan-momo.jpg",
-      "time": "0.2hours"
+      "time": "20 minutes"
     },
     {
       "id": "3",
@@ -312,7 +312,7 @@
       "category": "main course",
       "type": "asian",
       "img": "https://www.yowangdu.com/wp-content/uploads/2020/01/Shapale-Tibetan-fried-meat-pies.jpg",
-      "time": "0.15hours"
+      "time": "15 mintutes"
     },
     {
       "id": "12",
@@ -321,7 +321,7 @@
       "category": "main course",
       "type": "asian",
       "img": "https://th.bing.com/th/id/OIP.jrcF356KsK312oNusjh0PgHaFh?rs=1&pid=ImgDetMain",
-      "time": "0.15hours",
+      "time": "15 mintutes",
       "ingredients": [
         "floor",
         "oil",
