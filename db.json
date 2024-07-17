@@ -52,7 +52,6 @@
       },
       "category": "starter",
       "type": "french",
-
       "img": "https://th.bing.com/th/id/OSK.HERO5Oh7tVzuhm7YOHZJ2m21uqVK0Flljncu3-IfxAdaeXM?rs=1&pid=ImgDetMain",
       "time": "1hour"
     },
@@ -81,204 +80,203 @@
         "9": "Step 9 - Fold the wrapper over the filling and pinch the edges to seal. You can make pleats for a traditional look or simply press the edges together"
       },
       "category": "main course",
-      "type":"tibetan",
+      "type": "asian",
       "img": "https://www.steppestravel.com/app/uploads/2020/05/tibetan-momo.jpg",
       "time": "0.2hours"
     },
     {
-      "id": "3",
-      "title": "Quesadillas aux haricots noirs",
-      "desc": "This vegetarian version of taquitos contains black beans, cream cheese, lime and corn kernels, which are spread in wheat tortillas. They are pan-fried and served with sour cream, green onions and salsa. A Mexican-inspired dish that's perfect during the week, when you're simply looking to eat well.",
+      "id": "11",
+      "title": "Chicken Alfredo Pasta",
+      "desc": "A classic Italian-American dish made with fettuccine pasta tossed in a rich and creamy Alfredo sauce with chicken pieces, garlic, and Parmesan cheese.",
       "ingredients": {
-        "1": "1 red bell pepper",
-        "2": "2 tsp. olive oil",
-        "3": "1 onion, finely chopped",
-        "4": "2 garlic cloves, finely minced",
-        "5": "1 can (540 ml) black beans",
-        "6": "1 tsp. ground cumin",
-        "7": "50 ml (1/4 cup) chopped cilantro",
-        "8": "250 ml (1 cup) mixed cheddar and Monterey Jack cheeses, grated",
-        "9": "8 whole-wheat tortillas, 17.5 cm (7 in.) long"
+        "1": "200g fettuccine pasta",
+        "2": "2 tbsp olive oil",
+        "3": "2 chicken breasts, diced",
+        "4": "3 garlic cloves, minced",
+        "5": "1 cup heavy cream",
+        "6": "1 cup grated Parmesan cheese",
+        "7": "2 tbsp chopped parsley",
+        "8": "Salt and pepper to taste"
       },
       "steps": {
-        "1": "Step 1 - Preheat oven to 180°C (350°F). Peel and seed peppers and cut into 0.5 cm (1/4) cubes. Heat oil in a large skillet over medium heat. Add onion. Cook, stirring often, until softened, about 3 minutes.",
-        "2": "Step 2 - Stir in bell pepper and garlic. Cook, stirring occasionally, for about 2 minutes. Drain and rinse beans. Add to salsa and cumin mixture. Cook, stirring occasionally, until beans are hot, about 3 minutes. Remove from heat.",
-        "3": "Step 3 - In a bowl, combine cilantro and cheese. Place a tortilla in a medium nonstick skillet over medium heat. Top with a quarter of the bean mixture. Sprinkle with a quarter of the cheese.",
-        "4": "Step 4 - Cover with another tortilla. Press down. Brown base, about 2 minutes. Using a large spatula, turn over and brown other side, 2 minutes. Place on a baking sheet and keep warm in the oven.",
-        "5": "Step 5 - Repeat with remaining tortillas. Cut quesadillas into quarters."
-      },
-      "category": "starter",
-      "type": "mexican",
-      "img": "https://fr.chatelaine.com/wp-content/uploads/2020/12/Quesadillas-unsplash_800x800.jpg",
-      "time": "1.5hours"
-    },
-    {
-      "id": "4",
-      "title": "Oeufs mimosa",
-      "desc": "Oeufs Mimosa, also known as Deviled Eggs in English, is a classic appetizer made by filling hard-boiled egg whites with a seasoned yolk mixture. Here's a detailed recipe to help you create this delightful dish",
-      "ingredients": {
-        "1": "0.25 l d' huile",
-        "2": "persil chopped",
-        "3": "1 small bowl of mayonnaise",
-        "4": "1 cuillère à café de moutarde",
-        "5": "1 teaspoon mustard (optional)",
-        "6": "lettuce leaf",
-        "7": "1 Egg yolk",
-        "8": "black olives to decorate the eggs (optional)",
-        "9": "lemon juice (optional)"
-      },
-      "steps": {
-        "1": "Step 1 - Cook the eggs in boiling water for 10 minutes, then put them in cold water to stop the cooking process.",
-        "2": "Step 2 - Make a mayonnaise with 1 egg yolk, 1 teaspoon mustard, 1/4 l oil and lemon juice (optional), or use a commercially prepared mayonnaise. The lemon juice is added at the last minute.",
-        "3": "Step 3 - Shell the eggs, cut them lengthwise and separate the whites from the yolks.",
-        "4": "Step 4 - In a shallow dish, crumble the yolks with a fork, mix half of the crumbled yolks with the mayonnaise and set the rest aside.",
-        "5": "Step 5 - Fill the half-eggs with this mixture, then sprinkle each half-egg with the remaining crumbled yolks (which makes the mimosa!!).",
-        "6": "Step 6 - Arrange the eggs on lettuce leaves, sprinkle each egg with parsley and a black olive. Serve chilled."
-      },
-      "category": "starter",
-      "type": "french",
-      "img": "https://th.bing.com/th/id/OSK.HERO5Oh7tVzuhm7YOHZJ2m21uqVK0Flljncu3-IfxAdaeXM?rs=1&pid=ImgDetMain",
-      "time": "1hour"
-    },
-    {
-      "id": "5",
-      "title": "Tibetan Momo",
-      "desc": "Tibetan momos are a type of dumpling native to the Tibetan Plateau. They are a popular dish not only in Tibet but also in neighboring regions like Nepal, Bhutan, and parts of India, especially among the Tibetan diaspora. Here’s an overview of Tibetan momos",
-      "ingredients": {
-        "1": "2 cups all-purpose flour",
-        "2": "Water (as needed)",
-        "3": "Pinch of salt",
-        "4": "corriander",
-        "5": "beefground meat",
-        "6": "0.25l of oil",
-        "7": "2 middle size onion"
-      },
-      "steps": {
-        "1": "Step 1 - Mix the flour and a pinch of salt in a bowl.",
-        "2": "Step 2 - Gradually add water and knead until you form a smooth and elastic dough.",
-        "3": "Step 3 - Cover the dough with a damp cloth and let it rest for at least 30 minutes.",
-        "4": "Step 4- In a mixing bowl, combine all the filling ingredients.",
-        "5": "Step 5 - Mix well to ensure the seasoning is evenly distributed.",
-        "6": "Step 6 - Divide the dough into small, equal-sized balls.",
-        "7": "Step 7 - Roll each ball into a thin, circular wrapper about 3 inches in diameter.",
-        "8": "Step 8 - Place a spoonful of filling in the center of each wrapper.",
-        "9": "Step 9 - Fold the wrapper over the filling and pinch the edges to seal. You can make pleats for a traditional look or simply press the edges together"
+        "1": "Step 1 - Cook pasta according to package instructions. Drain and set aside.",
+        "2": "Step 2 - Heat olive oil in a large skillet over medium-high heat. Add chicken and cook until browned and cooked through, about 5-7 minutes. Remove chicken from skillet and set aside.",
+        "3": "Step 3 - In the same skillet, add garlic and cook for 1 minute until fragrant. Pour in heavy cream and bring to a simmer. Reduce heat to low and stir in Parmesan cheese until melted and the sauce is smooth.",
+        "4": "Step 4 - Return chicken to the skillet and toss to coat in the sauce. Add cooked pasta and toss to combine.",
+        "5": "Step 5 - Garnish with chopped parsley and serve immediately."
       },
       "category": "main course",
-      "type":"asian",
-      "img": "https://www.steppestravel.com/app/uploads/2020/05/tibetan-momo.jpg",
-      "time": "0.2hours"
+      "type": "italian",
+      "img": "https://amandascookin.com/wp-content/uploads/2021/08/Chicken-Alfredo-V01-1100x1650.jpg",
+      "time": "30 minutes"
     },
     {
-      "id": "6",
-      "title": "Quesadillas aux haricots noirs",
-      "desc": "This vegetarian version of taquitos contains black beans, cream cheese, lime and corn kernels, which are spread in wheat tortillas. They are pan-fried and served with sour cream, green onions and salsa. A Mexican-inspired dish that's perfect during the week, when you're simply looking to eat well.",
+      "id": "12",
+      "title": "Classic Beef Tacos",
+      "desc": "Ground beef tacos seasoned with a blend of spices, served in crispy taco shells and topped with lettuce, cheese, and salsa.",
       "ingredients": {
-        "1": "1 red bell pepper",
-        "2": "2 tsp. olive oil",
-        "3": "1 onion, finely chopped",
-        "4": "2 garlic cloves, finely minced",
-        "5": "1 can (540 ml) black beans",
-        "6": "1 tsp. ground cumin",
-        "7": "50 ml (1/4 cup) chopped cilantro",
-        "8": "250 ml (1 cup) mixed cheddar and Monterey Jack cheeses, grated",
-        "9": "8 whole-wheat tortillas, 17.5 cm (7 in.) long"
+        "1": "500g ground beef",
+        "2": "1 packet taco seasoning",
+        "3": "1/2 cup water",
+        "4": "8 taco shells",
+        "5": "1 cup shredded lettuce",
+        "6": "1 cup shredded cheddar cheese",
+        "7": "1 cup salsa"
       },
       "steps": {
-        "1": "Step 1 - Preheat oven to 180°C (350°F). Peel and seed peppers and cut into 0.5 cm (1/4) cubes. Heat oil in a large skillet over medium heat. Add onion. Cook, stirring often, until softened, about 3 minutes.",
-        "2": "Step 2 - Stir in bell pepper and garlic. Cook, stirring occasionally, for about 2 minutes. Drain and rinse beans. Add to salsa and cumin mixture. Cook, stirring occasionally, until beans are hot, about 3 minutes. Remove from heat.",
-        "3": "Step 3 - In a bowl, combine cilantro and cheese. Place a tortilla in a medium nonstick skillet over medium heat. Top with a quarter of the bean mixture. Sprinkle with a quarter of the cheese.",
-        "4": "Step 4 - Cover with another tortilla. Press down. Brown base, about 2 minutes. Using a large spatula, turn over and brown other side, 2 minutes. Place on a baking sheet and keep warm in the oven.",
-        "5": "Step 5 - Repeat with remaining tortillas. Cut quesadillas into quarters."
-      },
-      "category": "starter",
-      "type": "mexican",
-      "img": "https://fr.chatelaine.com/wp-content/uploads/2020/12/Quesadillas-unsplash_800x800.jpg",
-      "time": "1.5hours"
-    },
-    {
-      "id": "7",
-      "title": "Oeufs mimosa",
-      "desc": "Oeufs Mimosa, also known as Deviled Eggs in English, is a classic appetizer made by filling hard-boiled egg whites with a seasoned yolk mixture. Here's a detailed recipe to help you create this delightful dish",
-      "ingredients": {
-        "1": "0.25 l d' huile",
-        "2": "persil chopped",
-        "3": "1 small bowl of mayonnaise",
-        "4": "1 cuillère à café de moutarde",
-        "5": "1 teaspoon mustard (optional)",
-        "6": "lettuce leaf",
-        "7": "1 Egg yolk",
-        "8": "black olives to decorate the eggs (optional)",
-        "9": "lemon juice (optional)"
-      },
-      "steps": {
-        "1": "Step 1 - Cook the eggs in boiling water for 10 minutes, then put them in cold water to stop the cooking process.",
-        "2": "Step 2 - Make a mayonnaise with 1 egg yolk, 1 teaspoon mustard, 1/4 l oil and lemon juice (optional), or use a commercially prepared mayonnaise. The lemon juice is added at the last minute.",
-        "3": "Step 3 - Shell the eggs, cut them lengthwise and separate the whites from the yolks.",
-        "4": "Step 4 - In a shallow dish, crumble the yolks with a fork, mix half of the crumbled yolks with the mayonnaise and set the rest aside.",
-        "5": "Step 5 - Fill the half-eggs with this mixture, then sprinkle each half-egg with the remaining crumbled yolks (which makes the mimosa!!).",
-        "6": "Step 6 - Arrange the eggs on lettuce leaves, sprinkle each egg with parsley and a black olive. Serve chilled."
-      },
-      "category": "starter",
-      "type": "french",
-      "img": "https://th.bing.com/th/id/OSK.HERO5Oh7tVzuhm7YOHZJ2m21uqVK0Flljncu3-IfxAdaeXM?rs=1&pid=ImgDetMain",
-      "time": "1hour"
-    },
-    {
-      "id": "8",
-      "title": "Tibetan Momo",
-      "desc": "Tibetan momos are a type of dumpling native to the Tibetan Plateau. They are a popular dish not only in Tibet but also in neighboring regions like Nepal, Bhutan, and parts of India, especially among the Tibetan diaspora. Here’s an overview of Tibetan momos",
-      "ingredients": {
-        "1": "2 cups all-purpose flour",
-        "2": "Water (as needed)",
-        "3": "Pinch of salt",
-        "4": "corriander",
-        "5": "beefground meat",
-        "6": "0.25l of oil",
-        "7": "2 middle size onion"
-      },
-      "steps": {
-        "1": "Step 1 - Mix the flour and a pinch of salt in a bowl.",
-        "2": "Step 2 - Gradually add water and knead until you form a smooth and elastic dough.",
-        "3": "Step 3 - Cover the dough with a damp cloth and let it rest for at least 30 minutes.",
-        "4": "Step 4- In a mixing bowl, combine all the filling ingredients.",
-        "5": "Step 5 - Mix well to ensure the seasoning is evenly distributed.",
-        "6": "Step 6 - Divide the dough into small, equal-sized balls.",
-        "7": "Step 7 - Roll each ball into a thin, circular wrapper about 3 inches in diameter.",
-        "8": "Step 8 - Place a spoonful of filling in the center of each wrapper.",
-        "9": "Step 9 - Fold the wrapper over the filling and pinch the edges to seal. You can make pleats for a traditional look or simply press the edges together"
+        "1": "Step 1 - Cook ground beef in a large skillet over medium-high heat until browned. Drain excess fat.",
+        "2": "Step 2 - Add taco seasoning and water to the skillet. Stir to combine and cook for 5-7 minutes, until the sauce thickens.",
+        "3": "Step 3 - Warm taco shells according to package instructions.",
+        "4": "Step 4 - Fill each taco shell with seasoned beef, lettuce, cheese, and salsa.",
+        "5": "Step 5 - Serve immediately."
       },
       "category": "main course",
-      "type":"tibetan",
-      "img": "https://www.steppestravel.com/app/uploads/2020/05/tibetan-momo.jpg",
-      "time": "0.2hours"
+      "type": "mexican",
+      "img": "https://eatandcooking.com/wp-content/uploads/2020/12/authentic-mexican-ground-beef-taco-recipe-awesome-ground-beef-tacos-dinner-at-the-zoo-of-authentic-mexican-ground-beef-taco-recipe.jpg",
+      "time": "20 minutes"
     },
     {
-      "id": "9",
-      "title": "Quesadillas aux haricots noirs",
-      "desc": "This vegetarian version of taquitos contains black beans, cream cheese, lime and corn kernels, which are spread in wheat tortillas. They are pan-fried and served with sour cream, green onions and salsa. A Mexican-inspired dish that's perfect during the week, when you're simply looking to eat well.",
+      "id": "13",
+      "title": "Chocolate Chip Cookies",
+      "desc": "Classic chewy and soft chocolate chip cookies with a perfect balance of sweetness and chocolate chips.",
       "ingredients": {
-        "1": "1 red bell pepper",
-        "2": "2 tsp. olive oil",
-        "3": "1 onion, finely chopped",
-        "4": "2 garlic cloves, finely minced",
-        "5": "1 can (540 ml) black beans",
-        "6": "1 tsp. ground cumin",
-        "7": "50 ml (1/4 cup) chopped cilantro",
-        "8": "250 ml (1 cup) mixed cheddar and Monterey Jack cheeses, grated",
-        "9": "8 whole-wheat tortillas, 17.5 cm (7 in.) long"
+        "1": "1 cup unsalted butter, softened",
+        "2": "1 cup white sugar",
+        "3": "1 cup packed brown sugar",
+        "4": "2 eggs",
+        "5": "2 tsp vanilla extract",
+        "6": "3 cups all-purpose flour",
+        "7": "1 tsp baking soda",
+        "8": "2 tsp hot water",
+        "9": "1/2 tsp salt",
+        "10": "2 cups semisweet chocolate chips"
       },
       "steps": {
-        "1": "Step 1 - Preheat oven to 180°C (350°F). Peel and seed peppers and cut into 0.5 cm (1/4) cubes. Heat oil in a large skillet over medium heat. Add onion. Cook, stirring often, until softened, about 3 minutes.",
-        "2": "Step 2 - Stir in bell pepper and garlic. Cook, stirring occasionally, for about 2 minutes. Drain and rinse beans. Add to salsa and cumin mixture. Cook, stirring occasionally, until beans are hot, about 3 minutes. Remove from heat.",
-        "3": "Step 3 - In a bowl, combine cilantro and cheese. Place a tortilla in a medium nonstick skillet over medium heat. Top with a quarter of the bean mixture. Sprinkle with a quarter of the cheese.",
-        "4": "Step 4 - Cover with another tortilla. Press down. Brown base, about 2 minutes. Using a large spatula, turn over and brown other side, 2 minutes. Place on a baking sheet and keep warm in the oven.",
-        "5": "Step 5 - Repeat with remaining tortillas. Cut quesadillas into quarters."
+        "1": "Step 1 - Preheat oven to 350°F (175°C).",
+        "2": "Step 2 - Cream together the butter, white sugar, and brown sugar until smooth. Beat in the eggs one at a time, then stir in the vanilla.",
+        "3": "Step 3 - Dissolve baking soda in hot water. Add to batter along with salt.",
+        "4": "Step 4 - Stir in flour and chocolate chips. Drop by large spoonfuls onto ungreased pans.",
+        "5": "Step 5 - Bake for about 10 minutes in the preheated oven, or until edges are nicely browned."
+      },
+      "category": "dessert",
+      "type": "american",
+      "img": "https://th.bing.com/th/id/R.929adbf156daeb1e8f29870f912925b1?rik=LHYc2TbVlyvoFw&riu=http%3a%2f%2fwww.spoonforkbacon.com%2fwordpress%2fwp-content%2fuploads%2f2014%2f01%2fchocolate-chip-cookies-recipe.jpg&ehk=6CxnwYP%2fqG8TP1qty2ToaGSI3tdFHwp4vKroF6uOmkY%3d&risl=&pid=ImgRaw&r=0",
+      "time": "25 minutes"
+    },
+    {
+      "id": "14",
+      "title": "Caesar Salad",
+      "desc": "A classic Caesar salad with romaine lettuce, Parmesan cheese, croutons, and Caesar dressing.",
+      "ingredients": {
+        "1": "1 head romaine lettuce, chopped",
+        "2": "1/2 cup grated Parmesan cheese",
+        "3": "1 cup croutons",
+        "4": "1/2 cup Caesar dressing",
+        "5": "1 lemon, cut into wedges"
+      },
+      "steps": {
+        "1": "Step 1 - In a large bowl, combine chopped romaine lettuce, grated Parmesan cheese, and croutons.",
+        "2": "Step 2 - Drizzle with Caesar dressing and toss to coat.",
+        "3": "Step 3 - Serve immediately with lemon wedges on the side."
       },
       "category": "starter",
-      "type": "mexican",
-      "img": "https://fr.chatelaine.com/wp-content/uploads/2020/12/Quesadillas-unsplash_800x800.jpg",
-      "time": "1.5hours"
+      "type": "italian",
+      "img": "https://th.bing.com/th/id/R.3d3776b4152b6a98f6ca2fe0ce6dfc19?rik=z0cbbbwNZ99TAw&pid=ImgRaw&r=0",
+      "time": "15 minutes"
+    },
+    {
+      "id": "15",
+      "title": "Classic Tiramisu",
+      "desc": "A traditional Italian dessert made with layers of coffee-soaked ladyfingers and a rich mascarpone cheese mixture, topped with cocoa powder.",
+      "ingredients": {
+        "1": "6 egg yolks",
+        "2": "3/4 cup white sugar",
+        "3": "2/3 cup milk",
+        "4": "1 1/4 cups heavy cream",
+        "5": "1/2 tsp vanilla extract",
+        "6": "1 lb mascarpone cheese",
+        "7": "1 cup strong brewed coffee, cooled",
+        "8": "1/4 cup coffee liqueur",
+        "9": "2 packages ladyfingers",
+        "10": "1 tbsp unsweetened cocoa powder"
+      },
+      "steps": {
+        "1": "Step 1 - In a medium saucepan, whisk together egg yolks and sugar until well blended. Whisk in milk and cook over medium heat, stirring constantly, until mixture boils. Boil gently for 1 minute, then remove from heat and allow to cool slightly. Cover tightly and chill in the refrigerator for 1 hour.",
+        "2": "Step 2 - In a medium bowl, beat cream with vanilla until stiff peaks form.",
+        "3": "Step 3 - Whisk mascarpone into yolk mixture until smooth.",
+        "4": "Step 4 - In a small bowl, combine coffee and coffee liqueur. Quickly dip each ladyfinger into the coffee mixture just long enough to get them wet, do not soak them. Arrange half of soaked ladyfingers in bottom of a 7x11 inch dish.",
+        "5": "Step 5 - Spread half of mascarpone mixture over ladyfingers, then half of whipped cream over that. Repeat layers and sprinkle with cocoa. Cover and refrigerate 4 to 6 hours, until set."
+      },
+      "category": "dessert",
+      "type": "italian",
+      "img": "https://th.bing.com/th/id/OIP.Y5Yjw_O0wsI0JzPzUD7N6QHaLH?rs=1&pid=ImgDetMain",
+      "time": "6 hours"
+    },
+    {
+      "id": "16",
+      "title": "Lemon Bars",
+      "desc": "Sweet and tangy lemon bars with a buttery crust and a rich lemon filling, dusted with powdered sugar.",
+      "ingredients": {
+        "1": "1 cup butter, softened",
+        "2": "1/2 cup white sugar",
+        "3": "2 cups all-purpose flour",
+        "4": "4 eggs",
+        "5": "1 1/2 cups white sugar",
+        "6": "1/4 cup all-purpose flour",
+        "7": "2 lemons, juiced"
+      },
+      "steps": {
+        "1": "Step 1 - Preheat oven to 350°F (175°C). In a medium bowl, blend together softened butter, 2 cups flour, and 1/2 cup sugar. Press into the bottom of an ungreased 9x13 inch pan.",
+        "2": "Step 2 - Bake for 15 to 20 minutes in the preheated oven, or until firm and golden. In another bowl, whisk together the remaining 1 1/2 cups sugar and 1/4 cup flour. Whisk in the eggs and lemon juice. Pour over the baked crust.",
+        "3": "Step 3 - Bake for an additional 20 minutes in the preheated oven. The bars will firm up as they cool.",
+        "4": "Step 4 - For a festive tray, make another pan of lemon bars, but cut them in diamond shapes and arrange in a checkerboard pattern."
+      },
+      "category": "dessert",
+      "type": "american",
+      "img": "https://th.bing.com/th/id/R.89583d649af009bb4f44cd6a4f25ec01?rik=1q84Yzuassjp%2fA&pid=ImgRaw&r=0",
+      "time": "45 minutes"
+    },
+    {
+      "id": "bpyij1x4k",
+      "ingredients": [
+        "floor",
+        "salt",
+        "oil"
+      ],
+      "steps": [
+        "sldfkjsl kjdsf",
+        "lksdfjlksdfj",
+        "lksdfjlkdsfj",
+        "lksdjfkldjsf lkjdsfklj"
+      ],
+      "title": "shabaklep",
+      "desc": "tibetan delicacy",
+      "category": "main course",
+      "type": "asian",
+      "img": "https://www.yowangdu.com/wp-content/uploads/2020/01/Shapale-Tibetan-fried-meat-pies.jpg",
+      "time": "0.15hours"
+    },
+    {
+      "id": "6uljm5i8f",
+      "title": "momo fry",
+      "desc": "momo declious fry momo",
+      "category": "main course",
+      "type": "asian",
+      "img": "https://th.bing.com/th/id/OIP.jrcF356KsK312oNusjh0PgHaFh?rs=1&pid=ImgDetMain",
+      "time": "0.15hours",
+      "ingredients": [
+        "floor",
+        "oil",
+        "wheat",
+        "meat",
+        ""
+      ],
+      "steps": [
+        "sfkjsdhf",
+        "sdfkjds",
+        "lfjdlkjsl lsdjflksd",
+        "new line"
+      ]
     }
   ]
 }

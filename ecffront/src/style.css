@@ -112,7 +112,6 @@ li {
   padding: 1rem;
 }
 
-
 /*Recipe Card*/
 
 .CardContainer {
@@ -263,7 +262,33 @@ li {
 .star-button:active .star-icon {
   transform: scale(0.9);
 }
+/*RECIPE FORM */
+.form {
+  text-align: center;
+}
 
+.formContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 3rem;
+  border: 2px solid #e2ccd0;
+  border-radius: 15px;
+}
+.submit {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  background-color: #65558f;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
 /*MEDIA QUERIES */
 @media screen and (max-width: 560px) {
   .loop {

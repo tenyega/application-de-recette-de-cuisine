@@ -32,7 +32,7 @@ export default function RecipeCard() {
     const optionsCat: OptionCat[] = [
         { id: 1, label: 'Starter' },
         { id: 2, label: 'Main Course' },
-        { id: 3, label: 'Desert' }
+        { id: 3, label: 'Dessert' }
       ];
     
       const [selectedOptionsCat, setSelectedOptionsCat] = useState<OptionCat[]>([]);
