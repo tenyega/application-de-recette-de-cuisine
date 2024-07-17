@@ -9,7 +9,7 @@ interface Detail {
     steps: { [key: string]: string };
     category: string;
     img: string;
-    isFavorite: boolean;
+    type: string;
 }
 
 
@@ -55,6 +55,7 @@ export default function RecipeDetail() {
                         <br />
                         <h3>Time :- {resRecipe.time}</h3>
                         <h4>Category:- {resRecipe.category?.toUpperCase()}</h4>
+                        <h4>Type of Cuisine:- {resRecipe.type?.toUpperCase()}</h4>
                         <p className="desc">{resRecipe.desc}</p>
                     </div>
                 </div><div className="additionalInfo">

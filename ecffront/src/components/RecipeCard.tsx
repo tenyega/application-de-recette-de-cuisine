@@ -10,7 +10,7 @@ interface Data {
     step:  { [key: string]: string };
     category: string;
     img: string;
-    isFavorite: boolean;
+    type: string;
 }
 interface Datas {
 datas: Data[];

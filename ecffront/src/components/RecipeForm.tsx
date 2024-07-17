@@ -8,6 +8,7 @@ interface Recipe {
   img: string;
   time: string;
   category: string;
+  type: string;
 }
 
 export default function RecipeForm() {
@@ -17,7 +18,8 @@ export default function RecipeForm() {
     desc: '',
     img: '',
     time: '',
-    category: ''
+    category: '',
+    type:''
   });
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -39,7 +41,8 @@ export default function RecipeForm() {
       desc: '',
       img: '',
       time: '',
-      category: ''
+      category: '',
+      type:''
     });
   };
 

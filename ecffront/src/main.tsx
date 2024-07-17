@@ -7,7 +7,6 @@ import {
 } from "react-router-dom";
 import Home from './pages/Home';
 import RecipeForm from './components/RecipeForm';
-import RecipeList from './components/RecipeList';
 import RecipeDetail from './components/RecipeDetail';
 import FavoriteRecipe from './components/FavoriteRecipe';
 import TodaysSpecial from './components/TodaysSpecial';
@@ -19,10 +18,6 @@ const router = createBrowserRouter([
   }, {
     path: "/add",
     element: <RecipeForm/>
-  },
-  {
-    path: "/recipelist",
-    element: <RecipeList />
   },
   {
     path: "/recipedetail/:id",

@@ -22,9 +22,9 @@
         "4": "Step 4 - Cover with another tortilla. Press down. Brown base, about 2 minutes. Using a large spatula, turn over and brown other side, 2 minutes. Place on a baking sheet and keep warm in the oven.",
         "5": "Step 5 - Repeat with remaining tortillas. Cut quesadillas into quarters."
       },
-      "category": "mexican",
+      "category": "starter",
+      "type": "mexican",
       "img": "https://fr.chatelaine.com/wp-content/uploads/2020/12/Quesadillas-unsplash_800x800.jpg",
-      "isFavorite": false,
       "time": "1.5hours"
     },
     {
@@ -50,9 +50,10 @@
         "5": "Step 5 - Fill the half-eggs with this mixture, then sprinkle each half-egg with the remaining crumbled yolks (which makes the mimosa!!).",
         "6": "Step 6 - Arrange the eggs on lettuce leaves, sprinkle each egg with parsley and a black olive. Serve chilled."
       },
-      "category": "french",
+      "category": "starter",
+      "type": "french",
+
       "img": "https://th.bing.com/th/id/OSK.HERO5Oh7tVzuhm7YOHZJ2m21uqVK0Flljncu3-IfxAdaeXM?rs=1&pid=ImgDetMain",
-      "isFavorite": false,
       "time": "1hour"
     },
     {
@@ -79,9 +80,9 @@
         "8": "Step 8 - Place a spoonful of filling in the center of each wrapper.",
         "9": "Step 9 - Fold the wrapper over the filling and pinch the edges to seal. You can make pleats for a traditional look or simply press the edges together"
       },
-      "category": "tibetan",
+      "category": "plat",
+      "type":"tibetan",
       "img": "https://www.steppestravel.com/app/uploads/2020/05/tibetan-momo.jpg",
-      "isFavorite": true,
       "time": "0.2hours"
     },
     {
@@ -106,9 +107,9 @@
         "4": "Step 4 - Cover with another tortilla. Press down. Brown base, about 2 minutes. Using a large spatula, turn over and brown other side, 2 minutes. Place on a baking sheet and keep warm in the oven.",
         "5": "Step 5 - Repeat with remaining tortillas. Cut quesadillas into quarters."
       },
-      "category": "mexican",
+      "category": "starter",
+      "type": "mexican",
       "img": "https://fr.chatelaine.com/wp-content/uploads/2020/12/Quesadillas-unsplash_800x800.jpg",
-      "isFavorite": false,
       "time": "1.5hours"
     },
     {
@@ -134,9 +135,9 @@
         "5": "Step 5 - Fill the half-eggs with this mixture, then sprinkle each half-egg with the remaining crumbled yolks (which makes the mimosa!!).",
         "6": "Step 6 - Arrange the eggs on lettuce leaves, sprinkle each egg with parsley and a black olive. Serve chilled."
       },
-      "category": "french",
+      "category": "starter",
+      "type": "french",
       "img": "https://th.bing.com/th/id/OSK.HERO5Oh7tVzuhm7YOHZJ2m21uqVK0Flljncu3-IfxAdaeXM?rs=1&pid=ImgDetMain",
-      "isFavorite": false,
       "time": "1hour"
     },
     {
@@ -163,9 +164,9 @@
         "8": "Step 8 - Place a spoonful of filling in the center of each wrapper.",
         "9": "Step 9 - Fold the wrapper over the filling and pinch the edges to seal. You can make pleats for a traditional look or simply press the edges together"
       },
-      "category": "tibetan",
+      "category": "plat",
+      "type":"tibetan",
       "img": "https://www.steppestravel.com/app/uploads/2020/05/tibetan-momo.jpg",
-      "isFavorite": true,
       "time": "0.2hours"
     },
     {
@@ -190,9 +191,9 @@
         "4": "Step 4 - Cover with another tortilla. Press down. Brown base, about 2 minutes. Using a large spatula, turn over and brown other side, 2 minutes. Place on a baking sheet and keep warm in the oven.",
         "5": "Step 5 - Repeat with remaining tortillas. Cut quesadillas into quarters."
       },
-      "category": "mexican",
+      "category": "starter",
+      "type": "mexican",
       "img": "https://fr.chatelaine.com/wp-content/uploads/2020/12/Quesadillas-unsplash_800x800.jpg",
-      "isFavorite": false,
       "time": "1.5hours"
     },
     {
@@ -218,9 +219,9 @@
         "5": "Step 5 - Fill the half-eggs with this mixture, then sprinkle each half-egg with the remaining crumbled yolks (which makes the mimosa!!).",
         "6": "Step 6 - Arrange the eggs on lettuce leaves, sprinkle each egg with parsley and a black olive. Serve chilled."
       },
-      "category": "french",
+      "category": "starter",
+      "type": "french",
       "img": "https://th.bing.com/th/id/OSK.HERO5Oh7tVzuhm7YOHZJ2m21uqVK0Flljncu3-IfxAdaeXM?rs=1&pid=ImgDetMain",
-      "isFavorite": false,
       "time": "1hour"
     },
     {
@@ -247,9 +248,9 @@
         "8": "Step 8 - Place a spoonful of filling in the center of each wrapper.",
         "9": "Step 9 - Fold the wrapper over the filling and pinch the edges to seal. You can make pleats for a traditional look or simply press the edges together"
       },
-      "category": "tibetan",
+      "category": "plat",
+      "type":"tibetan",
       "img": "https://www.steppestravel.com/app/uploads/2020/05/tibetan-momo.jpg",
-      "isFavorite": true,
       "time": "0.2hours"
     },
     {
@@ -274,9 +275,9 @@
         "4": "Step 4 - Cover with another tortilla. Press down. Brown base, about 2 minutes. Using a large spatula, turn over and brown other side, 2 minutes. Place on a baking sheet and keep warm in the oven.",
         "5": "Step 5 - Repeat with remaining tortillas. Cut quesadillas into quarters."
       },
-      "category": "mexican",
+      "category": "starter",
+      "type": "mexican",
       "img": "https://fr.chatelaine.com/wp-content/uploads/2020/12/Quesadillas-unsplash_800x800.jpg",
-      "isFavorite": false,
       "time": "1.5hours"
     }
   ]
