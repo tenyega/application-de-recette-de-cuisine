@@ -1,6 +1,6 @@
 import { JSXElementConstructor, Key, ReactElement, ReactNode, ReactPortal, useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
-import StarIcon from "./StarIcon";
+import StarIcon from "./FavoriteIcon";
 
 interface Data {
     id: string;
@@ -76,15 +76,6 @@ export default function RecipeCard() {
         setShouldFetch(true);
       
     }
-
-    
-
-
- 
-  
-
-
-
 
     return (<>
         <div className="search">
