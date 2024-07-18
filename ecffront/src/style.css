@@ -194,8 +194,8 @@ textarea:hover {
 }
 
 .imgDetail {
-  width: 50%;
-  height: auto;
+  width: 30%;
+  aspect-ratio: 1 / 1;
   gap: 0.5rem;
   margin: 0.2rem;
   width: 40%;
@@ -294,7 +294,8 @@ textarea:hover {
 .formImg,
 .formTime,
 .formIngredients,
-.formSteps {
+.formSteps,
+.formConseil {
   margin-bottom: 1.5rem;
 }
 
@@ -345,6 +346,10 @@ button.submit:hover {
 button.submit img {
   margin-left: 0.5rem;
   vertical-align: middle;
+}
+
+.errMsg {
+  color: red;
 }
 
 @media (max-width: 768px) {

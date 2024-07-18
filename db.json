@@ -25,7 +25,8 @@
       "category": "starter",
       "type": "mexican",
       "img": "https://fr.chatelaine.com/wp-content/uploads/2020/12/Quesadillas-unsplash_800x800.jpg",
-      "time": "1.5 hours"
+      "time": "1.5 hours",
+      "conseil": "Conserve in room temperature"
     },
     {
       "id": "1",
@@ -53,7 +54,8 @@
       "category": "starter",
       "type": "french",
       "img": "https://th.bing.com/th/id/OSK.HERO5Oh7tVzuhm7YOHZJ2m21uqVK0Flljncu3-IfxAdaeXM?rs=1&pid=ImgDetMain",
-      "time": "1 hour"
+      "time": "1 hour",
+      "conseil": "Conserve in room temperature"
     },
     {
       "id": "2",
@@ -82,7 +84,8 @@
       "category": "main course",
       "type": "asian",
       "img": "https://www.steppestravel.com/app/uploads/2020/05/tibetan-momo.jpg",
-      "time": "20 minutes"
+      "time": "20 minutes",
+      "conseil": "Conserve in room temperature"
     },
     {
       "id": "3",
@@ -108,7 +111,8 @@
       "category": "main course",
       "type": "italian",
       "img": "https://amandascookin.com/wp-content/uploads/2021/08/Chicken-Alfredo-V01-1100x1650.jpg",
-      "time": "30 minutes"
+      "time": "30 minutes",
+      "conseil": "Conserve in room temperature"
     },
     {
       "id": "4",
@@ -133,7 +137,8 @@
       "category": "main course",
       "type": "mexican",
       "img": "https://eatandcooking.com/wp-content/uploads/2020/12/authentic-mexican-ground-beef-taco-recipe-awesome-ground-beef-tacos-dinner-at-the-zoo-of-authentic-mexican-ground-beef-taco-recipe.jpg",
-      "time": "20 minutes"
+      "time": "20 minutes",
+      "conseil": "Conserve in room temperature"
     },
     {
       "id": "5",
@@ -161,7 +166,8 @@
       "category": "dessert",
       "type": "american",
       "img": "https://th.bing.com/th/id/R.929adbf156daeb1e8f29870f912925b1?rik=LHYc2TbVlyvoFw&riu=http%3a%2f%2fwww.spoonforkbacon.com%2fwordpress%2fwp-content%2fuploads%2f2014%2f01%2fchocolate-chip-cookies-recipe.jpg&ehk=6CxnwYP%2fqG8TP1qty2ToaGSI3tdFHwp4vKroF6uOmkY%3d&risl=&pid=ImgRaw&r=0",
-      "time": "25 minutes"
+      "time": "25 minutes",
+      "conseil": "Conserve in room temperature"
     },
     {
       "id": "6",
@@ -182,7 +188,8 @@
       "category": "starter",
       "type": "italian",
       "img": "https://th.bing.com/th/id/R.3d3776b4152b6a98f6ca2fe0ce6dfc19?rik=z0cbbbwNZ99TAw&pid=ImgRaw&r=0",
-      "time": "15 minutes"
+      "time": "15 minutes",
+      "conseil": "Conserve in room temperature"
     },
     {
       "id": "7",
@@ -210,7 +217,8 @@
       "category": "dessert",
       "type": "italian",
       "img": "https://th.bing.com/th/id/OIP.Y5Yjw_O0wsI0JzPzUD7N6QHaLH?rs=1&pid=ImgDetMain",
-      "time": "6 hours"
+      "time": "6 hours",
+      "conseil": "Conserve in room temperature"
     },
     {
       "id": "8",
@@ -234,7 +242,8 @@
       "category": "dessert",
       "type": "american",
       "img": "https://th.bing.com/th/id/R.89583d649af009bb4f44cd6a4f25ec01?rik=1q84Yzuassjp%2fA&pid=ImgRaw&r=0",
-      "time": "45 minutes"
+      "time": "45 minutes",
+      "conseil": "Conserve in room temperature"
     },
     {
       "id": "9",
@@ -265,7 +274,8 @@
       "category": "main course",
       "type": "french",
       "img": "https://www.hospitalityhedonist.co.za/wp-content/uploads/2019/02/joe-lingeman-2-1080x1350.jpg",
-      "time": "2 hours"
+      "time": "2 hours",
+      "conseil": "Conserve in room temperature"
     },
     {
       "id": "10",
@@ -292,7 +302,8 @@
       "category": "dessert",
       "type": "french",
       "img": "https://www.parisperfect.com/blog/wp-content/uploads/2017/11/FO-156263555-creme-brulee-spoon.jpg",
-      "time": "3 hours"
+      "time": "3 hours",
+      "conseil": "Conserve in room temperature"
     },
     {
       "id": "11",
@@ -300,38 +311,39 @@
         "2 cups all-purpose flour",
         "1/2 cup water (adjust as needed)",
         "1/2 teaspoon salt",
-         "1 pound ground beef or lamb",
-          "1 medium onion, finely chopped",
-          "2 cloves garlic, minced",
-          "1 tablespoon ginger, minced",
-          "1 tablespoon soy sauce",
-          "1 teaspoon ground cumin",
-          "1 teaspoon ground coriander",
-          "1/2 teaspoon ground black pepper",
-          "1/2 teaspoon salt (adjust to taste)",
-          "1/4 cup chopped cilantro",
-          "1/4 cup chopped green onions",
-          "1-2 tablespoons vegetable oil (for cooking)"
+        "1 pound ground beef or lamb",
+        "1 medium onion, finely chopped",
+        "2 cloves garlic, minced",
+        "1 tablespoon ginger, minced",
+        "1 tablespoon soy sauce",
+        "1 teaspoon ground cumin",
+        "1 teaspoon ground coriander",
+        "1/2 teaspoon ground black pepper",
+        "1/2 teaspoon salt (adjust to taste)",
+        "1/4 cup chopped cilantro",
+        "1/4 cup chopped green onions",
+        "1-2 tablespoons vegetable oil (for cooking)"
       ],
       "steps": [
-        "In a large mixing bowl, combine the flour and salt.",
-        "Gradually add water while mixing, until a dough forms.",
-        "Knead the dough on a lightly floured surface until it becomes smooth and elastic (about 5-7 minutes).",
-        "Cover the dough with a damp cloth and let it rest for at least 30 minutes.",
-        "In a mixing bowl, combine the ground meat, chopped onion, minced garlic, minced ginger, soy sauce, ground cumin, ground coriander, black pepper, and salt.",
-        "Mix well to evenly distribute the spices and seasonings.",
-        "Add the chopped cilantro and green onions to the mixture, and mix again.",
-        "Heat a small amount of vegetable oil in a large skillet over medium heat.",
-        "Place the filled and sealed shabalep in the skillet, and cook until the bottoms are golden brown (about 2-3 minutes).",
-        "Carefully flip the shabalep and cook the other side until golden brown and the filling is cooked through (another 2-3 minutes).",
-        "You can add a small amount of water to the skillet and cover it with a lid to steam the shabalep for a softer texture (optional)."
+        "Step 1 - In a large mixing bowl, combine the flour and salt.",
+        "Step 2 - Gradually add water while mixing, until a dough forms.",
+        "Step 3 - Knead the dough on a lightly floured surface until it becomes smooth and elastic (about 5-7 minutes).",
+        "Step 4 - Cover the dough with a damp cloth and let it rest for at least 30 minutes.",
+        "Step 5 - In a mixing bowl, combine the ground meat, chopped onion, minced garlic, minced ginger, soy sauce, ground cumin, ground coriander, black pepper, and salt.",
+        "Step 6 - Mix well to evenly distribute the spices and seasonings.",
+        "Step 7 - Add the chopped cilantro and green onions to the mixture, and mix again.",
+        "Step 8 - Heat a small amount of vegetable oil in a large skillet over medium heat.",
+        "Step 9 - Place the filled and sealed shabalep in the skillet, and cook until the bottoms are golden brown (about 2-3 minutes).",
+        "Step 10 - Carefully flip the shabalep and cook the other side until golden brown and the filling is cooked through (another 2-3 minutes).",
+        "Step 11- You can add a small amount of water to the skillet and cover it with a lid to steam the shabalep for a softer texture (optional)."
       ],
       "title": "shabaklep",
       "desc": "tibetan delicacy",
       "category": "main course",
       "type": "asian",
       "img": "https://www.yowangdu.com/wp-content/uploads/2020/01/Shapale-Tibetan-fried-meat-pies.jpg",
-      "time": "15 mintutes"
+      "time": "15 mintutes",
+      "conseil": "Conserve in room temperature"
     },
     {
       "id": "12",
@@ -341,6 +353,7 @@
       "type": "asian",
       "img": "https://th.bing.com/th/id/OIP.jrcF356KsK312oNusjh0PgHaFh?rs=1&pid=ImgDetMain",
       "time": "15 mintutes",
+      "conseil": "Conserve in room temperature",
       "ingredients": [
         "2 cups all-purpose flour",
         "1/2 cup water (adjust as needed)",
@@ -360,22 +373,22 @@
         "1/4 cup vegetable oil (adjust as needed)"
       ],
       "steps": [
-       "In a large mixing bowl, combine the flour and salt.",  
-       "Gradually add water while mixing, until a dough forms.", 
-       "Knead the dough on a lightly floured surface until it becomes smooth and elastic (about 5-7 minutes).",  
-       "Cover the dough with a damp cloth and let it rest for at least 30 minutes.", 
-       "In a mixing bowl, combine the ground meat, chopped onion, minced garlic, minced ginger, soy sauce, ground cumin, ground coriander, black pepper, and salt.",
-       "Mix well to evenly distribute the spices and seasonings.",
-      "Add the chopped cilantro and green onions to the mixture, and mix again.",
-      "Divide the dough into small equal-sized balls (about 1.5 inches in diameter).",
-      "Roll each ball into a thin circle (about 4-5 inches in diameter) on a lightly floured surface.",
-      "Place a spoonful of the meat filling in the center of each circle.",
-      "Gather the edges of the dough around the filling, pinching and pleating to seal the top. You can also shape them into half-moons and seal the edges with a fork.",
-     " Heat the vegetable oil in a large skillet or frying pan over medium heat.",
-     " Place the momos in the skillet, making sure they are not crowded.",
-     " Fry the momos until they are golden brown on the bottom (about 2-3 minutes).",
-     " Flip the momos and fry the other side until golden brown and the filling is cooked through (another 2-3 minutes).",
-     " If needed, add a little water to the skillet and cover with a lid to ensure the filling cooks thoroughly while keeping the momos moist."
+        "Step 1 - In a large mixing bowl, combine the flour and salt.",
+        "Step 2 - Gradually add water while mixing, until a dough forms.",
+        "Step 3 - Knead the dough on a lightly floured surface until it becomes smooth and elastic (about 5-7 minutes).",
+        "Step 4 - Cover the dough with a damp cloth and let it rest for at least 30 minutes.",
+        "Step 5 - In a mixing bowl, combine the ground meat, chopped onion, minced garlic, minced ginger, soy sauce, ground cumin, ground coriander, black pepper, and salt.",
+        "Step 6 - Mix well to evenly distribute the spices and seasonings.",
+        "Step 7 - Add the chopped cilantro and green onions to the mixture, and mix again.",
+        "Step 8 - Divide the dough into small equal-sized balls (about 1.5 inches in diameter).",
+        "Step 9 - Roll each ball into a thin circle (about 4-5 inches in diameter) on a lightly floured surface.",
+        "Step 10 - Place a spoonful of the meat filling in the center of each circle.",
+        "Step 11 - Gather the edges of the dough around the filling, pinching and pleating to seal the top. You can also shape them into half-moons and seal the edges with a fork.",
+        "Step 12 - Heat the vegetable oil in a large skillet or frying pan over medium heat.",
+        "Step 13 - Place the momos in the skillet, making sure they are not crowded.",
+        "Step 14 - Fry the momos until they are golden brown on the bottom (about 2-3 minutes).",
+        "Step 15 - Flip the momos and fry the other side until golden brown and the filling is cooked through (another 2-3 minutes).",
+        "Step 16 - If needed, add a little water to the skillet and cover with a lid to ensure the filling cooks thoroughly while keeping the momos moist."
       ]
     },
     {
@@ -386,6 +399,7 @@
       "type": "french",
       "img": "https://th.bing.com/th/id/R.b1f9969daa1ba78290f0282b1af06755?rik=Y6xkqwtA%2fDUYKA&pid=ImgRaw&r=0",
       "time": "3 hours",
+      "conseil": "Conserve in room temperature",
       "ingredients": [
         "1 kg beef chuck roast, cut into cubes",
         "200g bacon, diced",
@@ -403,7 +417,7 @@
         "Fresh parsley for garnish"
       ],
       "steps": [
-        "In a large Dutch oven, cook bacon over medium heat until crisp. Remove bacon and set aside, leaving drippings in the pot.",
+        "Step 1 - In a large Dutch oven, cook bacon over medium heat until crisp. Remove bacon and set aside, leaving drippings in the pot.",
         "Step 2 - Season beef cubes with salt and pepper. Brown beef in the bacon drippings on all sides. Remove beef and set aside.",
         "Step 3 - Add butter to the pot and sauté onions, carrots, and garlic until softened.",
         "Step 4 - Stir in flour and cook for 1-2 minutes. Slowly add red wine and beef broth, stirring constantly.",

@@ -10,6 +10,7 @@ interface Detail {
     category: string;
     img: string;
     type: string;
+    conseil:string
 }
 
 
@@ -56,9 +57,12 @@ export default function RecipeDetail() {
                         <h3>Time :- {resRecipe.time}</h3>
                         <h4>Category:- {resRecipe.category?.toUpperCase()}</h4>
                         <h4>Type of Cuisine:- {resRecipe.type?.toUpperCase()}</h4>
+                        <h4>Chef's Advice :- {resRecipe.conseil?.toUpperCase()}</h4>
                         <p className="desc">{resRecipe.desc}</p>
                     </div>
-                </div><div className="additionalInfo">
+                </div>
+                    <h2 className="title"> For 1 portion</h2>
+                    <div className="additionalInfo">
                         <ul>INGREDIENTS -<br />
                             {resRecipe.ingredients ? (
                                 Object.keys(resRecipe.ingredients).map((key) => (
