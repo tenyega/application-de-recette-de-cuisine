@@ -7,7 +7,7 @@ export default function NavBar() {
                 <div className="Navbar">
                 <ul className="containerNav">
                     <NavLink to="/" className="navlink">
-                    <img src="../public/logo.png" className="logo" alt="Recipe Kitchen" height={100} width={100} />
+                    <img src="../assets/logo.png" className="logo" alt="Recipe Kitchen" height={100} width={100} />
 
                     </NavLink>
                         <NavLink to='/add' className="NavList">
