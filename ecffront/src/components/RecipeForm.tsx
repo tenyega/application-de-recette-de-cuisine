@@ -95,7 +95,7 @@ const RecipeForm= () => {
   useEffect(() => {
     const fetchRecipes = async () => {
       try {
-        const response = await fetch('http://localhost:3000/recipe');
+        const response = await fetch('https://server-json-ecf.vercel.app/recipe');
         const data = await response.json();
         setDatas(data); // Assuming 'data' is an array of Recipe objects
       } catch (error) {
@@ -198,7 +198,7 @@ const RecipeForm= () => {
       };
   
       try {
-        const response = await fetch('http://localhost:3000/recipe', {
+        const response = await fetch('https://server-json-ecf.vercel.app/recipe', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',

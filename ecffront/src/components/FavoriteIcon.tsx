@@ -13,7 +13,7 @@ const FavoriteIcon: React.FC<FavoriteIconProps> = ({ id, dataId }) => {
   useEffect(() => {
     async function fetchData() {
       try {
-        const response = await fetch('http://localhost:3000/recipe/' + id);
+        const response = await fetch('https://server-json-ecf.vercel.app/recipe/' + id);
         const data = await response.json();
         setData(data);
       } catch (err) {

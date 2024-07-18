@@ -27,7 +27,7 @@ export default function TodaysSpecial() {
         //this code runs only when shouldFetch is true (false by default) which means we have typed something in our search bar        
         async function fetchData() {
             try {
-                const response = await fetch('http://localhost:3000/recipe');
+                const response = await fetch('https://server-json-ecf.vercel.app/recipe');
                 setDatas(await response.json());
                 if (datas) {
                     setRes(datas);

@@ -25,7 +25,7 @@ export default function RecipeDetail() {
     async function fetchData() {
         try {
 
-            const response = await fetch('http://localhost:3000/recipe/'+params.id);
+            const response = await fetch('https://server-json-ecf.vercel.app/recipe/'+params.id);
             const datas = await response.json(); 
             if (datas) {
                 setResRecipe(datas);

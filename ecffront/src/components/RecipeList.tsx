@@ -24,7 +24,7 @@ interface OptionType {
     id: number;
     label: string;
   }
-export default function RecipeCard() {
+export default function RecipeList() {
     const [datas, setDatas] = useState<Datas | any>();
     const [res, setRes] = useState([]);
     const [searchTxt, setSearchTxt] = useState('');
@@ -99,45 +99,31 @@ export default function RecipeCard() {
       };
     
       const handleOptionToggleType = (optionType: OptionType) => {
-        // Check if the optionCat is already selected
         const isSelectedType = selectedOptionsType.some((selectedOptionType) => selectedOptionType.id === optionType.id);
-      
         if (isSelectedType) {
-          // If already selected, filter out the deselected category
           const updatedOptionsType = selectedOptionsType.filter((selectedOptionType) => selectedOptionType.id !== optionType.id);
-          // Update selectedOptionsCat state with the updated array
           setSelectedOptionsType(updatedOptionsType);
-      
-          // Filter datas based on remaining selected categories
           if (updatedOptionsType.length > 0) {
             const filteredData = datas.filter((dataToGet: { id: Key; type: string; }) => {
-              // Check if any remaining selected category matches dataToGet category
               return updatedOptionsType.some((selectedOptionType) => dataToGet.type.toLowerCase().includes(selectedOptionType.label.toLowerCase()));
             });
-            // Update the filtered result state (res)
             setRes(filteredData);
           } else {
-            // If no categories are selected, show all data
             setRes(datas);
           }
         } else {
-          // If the category is not selected, add it to selectedOptionsCat
           setSelectedOptionsType([...selectedOptionsType, optionType]);
-      
-          // Filter datas based on all selected categories
           const filteredData = datas.filter((dataToGet: { id: Key; type: string; }) => {
             return [...selectedOptionsType, optionType].some((selectedOptionType) => dataToGet.type.toLowerCase().includes(selectedOptionType.label.toLowerCase()));
           });
-          // Update the filtered result state (res)
           setRes(filteredData);
         }
       };
   
     useEffect(() => {
-        //this code runs only when shouldFetch is true (false by default) which means we have typed something in our search bar        
         async function fetchData() {
             try {
-                const response = await fetch('http://localhost:3000/recipe');
+                const response = await fetch('https://server-json-ecf.vercel.app/recipe');
                 setDatas(await response.json());
                 if (datas) {
                     setRes(datas);
@@ -156,7 +142,7 @@ export default function RecipeCard() {
         //this code runs only when shouldFetch is true (false by default) which means we have typed something in our search bar        
           async function fetchData() {
               try {
-                  const response = await fetch('http://localhost:3000/recipe');
+                  const response = await fetch('https://server-json-ecf.vercel.app/recipe');
                   setDatas(await response.json()) ; 
                   if (datas) {
                       setRes(datas);
@@ -209,8 +195,6 @@ export default function RecipeCard() {
           <div className="dropdown-toggle" onClick={toggleDropdownCat}>
                 <h2>Select the Category</h2>
                     {isOpenCat && selectedOptionsCat.length > 0 ? selectedOptionsCat.map((optionCat) => optionCat.label).join(', ') : ''}
-                    {/* {selectedOptionsCat.map((optionCat) => <h2>{optionCat.label}</h2> )} */}
-
                     <hr />
                 </div>
                 {isOpenCat && (
