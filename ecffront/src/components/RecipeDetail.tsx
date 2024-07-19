@@ -19,9 +19,7 @@ export default function RecipeDetail() {
     
     const [resRecipe, setResRecipe] = useState<Detail |any>({});
     useEffect(() => {
-    //Runs only on the first render
- 
-      
+    //Runs only on the ones after the initial render  
     async function fetchData() {
         try {
 
@@ -36,9 +34,6 @@ export default function RecipeDetail() {
         }
     }
  fetchData();
-
-     
-
     }, []);
     
     
@@ -61,7 +56,7 @@ export default function RecipeDetail() {
                         <p className="desc">{resRecipe.desc}</p>
                     </div>
                 </div>
-                    <h2 className="title"> For 1 portion</h2>
+                    <h2 className="title"><a><img src="https://api.iconify.design/carbon:subtract-alt.svg?color=%23888888" alt="subtract"/></a> 1 portion <a><img src="https://api.iconify.design/oui:ml-create-single-metric-job.svg?color=%23888888" alt="add"/></a></h2>
                     <div className="additionalInfo">
                         <ul>INGREDIENTS -<br />
                             {resRecipe.ingredients ? (

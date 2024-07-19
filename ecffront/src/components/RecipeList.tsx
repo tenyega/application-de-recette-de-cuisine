@@ -1,6 +1,6 @@
 import { JSXElementConstructor, Key, ReactElement, ReactNode, ReactPortal, useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
-import StarIcon from "./FavoriteIcon";
+import FavoriteIcon from "./FavoriteIcon";
 
 interface Data {
     id: string;
@@ -29,25 +29,35 @@ export default function RecipeList() {
     const [res, setRes] = useState([]);
     const [searchTxt, setSearchTxt] = useState('');
     const [shouldFetch, setShouldFetch] = useState(false);
+    const [selectedOptionsCat, setSelectedOptionsCat] = useState<OptionCat[]>([]);
+    const [isOpenCat, setIsOpenCat] = useState(false);
+    const [isOpenType, setIsOpenType] = useState(false);
+    const [selectedOptionsType, setSelectedOptionsType] = useState<OptionType[]>([]);
+
+
     const optionsCat: OptionCat[] = [
         { id: 1, label: 'Starter' },
         { id: 2, label: 'Main Course' },
         { id: 3, label: 'Dessert' }
-      ];
+  ];
+    const optionsType: OptionType[] = [
+      { id: 1, label: 'Mexican' },
+      { id: 2, label: 'French' },
+      { id: 3, label: 'Asian' },
+      { id: 4, label: 'Italian' },
+      { id: 5, label: 'American' }
+    ];
     
-      const [selectedOptionsCat, setSelectedOptionsCat] = useState<OptionCat[]>([]);
-      const [isOpenCat, setIsOpenCat] = useState(false);
-      const [isOpenType, setIsOpenType] = useState(false);
-
-      const toggleDropdownCat = () => {
-        setIsOpenCat(!isOpenCat);
-        setIsOpenType(false);
-      };
+   // this code is only to show or hide the dropdown of the category filter  and at the same time hides the type filter 
+  const toggleDropdownCat = () => {
+    setIsOpenCat(!isOpenCat);
+    setIsOpenType(false);
+  };
     
   const handleOptionToggleCat = (optionCat: OptionCat) => {
        // Check if the optionCat is already selected
         const isSelectedCat = selectedOptionsCat.some((selectedOptionCat) => selectedOptionCat.id === optionCat.id);
-      console.log('isSelectedCat',isSelectedCat )
+        console.log('isSelectedCat',isSelectedCat )
         if (isSelectedCat) {
           // If already selected, filter out the deselected category
           const updatedOptionsCat = selectedOptionsCat.filter((selectedOptionCat) => selectedOptionCat.id !== optionCat.id);
@@ -79,47 +89,35 @@ export default function RecipeList() {
         }
       };
     
+ 
+  const toggleDropdownType = () => {
+    setIsOpenType(!isOpenType);
+    setIsOpenCat(false);
 
-    const optionsType: OptionType[] = [
-        { id: 1, label: 'Mexican' },
-        { id: 2, label: 'French' },
-      { id: 3, label: 'Asian' },
-      { id: 4, label: 'Italian' },
-      { id: 5, label: 'American' }
-
-
-      ];
-    
-      const [selectedOptionsType, setSelectedOptionsType] = useState<OptionType[]>([]);
-    
-      const toggleDropdownType = () => {
-        setIsOpenType(!isOpenType);
-        setIsOpenCat(false);
-
-      };
-    
-      const handleOptionToggleType = (optionType: OptionType) => {
-        const isSelectedType = selectedOptionsType.some((selectedOptionType) => selectedOptionType.id === optionType.id);
-        if (isSelectedType) {
-          const updatedOptionsType = selectedOptionsType.filter((selectedOptionType) => selectedOptionType.id !== optionType.id);
-          setSelectedOptionsType(updatedOptionsType);
-          if (updatedOptionsType.length > 0) {
-            const filteredData = datas.filter((dataToGet: { id: Key; type: string; }) => {
-              return updatedOptionsType.some((selectedOptionType) => dataToGet.type.toLowerCase().includes(selectedOptionType.label.toLowerCase()));
-            });
-            setRes(filteredData);
-          } else {
-            setRes(datas);
-          }
-        } else {
-          setSelectedOptionsType([...selectedOptionsType, optionType]);
-          const filteredData = datas.filter((dataToGet: { id: Key; type: string; }) => {
-            return [...selectedOptionsType, optionType].some((selectedOptionType) => dataToGet.type.toLowerCase().includes(selectedOptionType.label.toLowerCase()));
-          });
-          setRes(filteredData);
-        }
-      };
+  };
   
+  const handleOptionToggleType = (optionType: OptionType) => {
+    const isSelectedType = selectedOptionsType.some((selectedOptionType) => selectedOptionType.id === optionType.id);
+    if (isSelectedType) {
+      const updatedOptionsType = selectedOptionsType.filter((selectedOptionType) => selectedOptionType.id !== optionType.id);
+      setSelectedOptionsType(updatedOptionsType);
+      if (updatedOptionsType.length > 0) {
+        const filteredData = datas.filter((dataToGet: { id: Key; type: string; }) => {
+          return updatedOptionsType.some((selectedOptionType) => dataToGet.type.toLowerCase().includes(selectedOptionType.label.toLowerCase()));
+        });
+        setRes(filteredData);
+      } else {
+        setRes(datas);
+      }
+    } else {
+      setSelectedOptionsType([...selectedOptionsType, optionType]);
+      const filteredData = datas.filter((dataToGet: { id: Key; type: string; }) => {
+        return [...selectedOptionsType, optionType].some((selectedOptionType) => dataToGet.type.toLowerCase().includes(selectedOptionType.label.toLowerCase()));
+      });
+      setRes(filteredData);
+    }
+  };
+
     useEffect(() => {
         async function fetchData() {
             try {
@@ -128,7 +126,6 @@ export default function RecipeList() {
                 if (datas) {
                     setRes(datas);
                     console.log(datas);
-  
                 }
             } catch (err) {
                 setRes([]);
@@ -138,6 +135,7 @@ export default function RecipeList() {
          
     },[]);
     
+  //Below is the code for the search logic 
     useEffect(() => {
         //this code runs only when shouldFetch is true (false by default) which means we have typed something in our search bar        
           async function fetchData() {
@@ -167,7 +165,7 @@ export default function RecipeList() {
         }
     }, [datas]);
 
-    const handleChange = async(e: { target: { value: any; }; }) => {
+    const handleSearchChange = async(e: { target: { value: any; }; }) => {
         const value = e.target.value;
         setSearchTxt(value)
         setShouldFetch(true);
@@ -182,11 +180,11 @@ export default function RecipeList() {
           type="text"
           id="textInput"
                 value={searchTxt}
-                onChange={handleChange}
+                onChange={handleSearchChange}
                 className="searchBar"
             />
             <img src="https://api.iconify.design/pepicons-pencil:loop.svg?color=%23888888" alt="loop" className="loop"/>
-                    <label htmlFor="textInput" >Search</label>
+            <label htmlFor="textInput" >Search</label>
 
         </div>
         <div className="filter">
@@ -246,9 +244,9 @@ export default function RecipeList() {
         {res.map((data: {id: Key , img: string | undefined; title: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | null | undefined; time: string | number | boolean | ReactElement<any, string | JSXElementConstructor<any>> | Iterable<ReactNode> | ReactPortal | null | undefined; }) => (
 
         <div className="card" key={data.id}>
-                <img src={data.img} alt="Example Image" className="card-image" />
+                <img src={data.img} alt="recipeImg" className="card-image" />
                 <button className="star-button" >
-                <StarIcon id={data.id?.toString()} dataId={data.id?.toString()} />
+                <FavoriteIcon id={data.id?.toString()} dataId={data.id?.toString()} />
              </button>
             <div className="card-content">
                 <h2 className="card-title">{data.title}</h2>

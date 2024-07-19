@@ -24,7 +24,7 @@ export default function TodaysSpecial() {
 
 
     useEffect(() => {
-        //this code runs only when shouldFetch is true (false by default) which means we have typed something in our search bar        
+        //this code runs at every render of the page  
         async function fetchData() {
             try {
                 const response = await fetch('https://server-json-ecf.vercel.app/recipe');
@@ -46,11 +46,10 @@ export default function TodaysSpecial() {
 
     const getRandomItem = () => {
         if (res.length === 0) return null;
-        
+        //gets me a rendom index as per the length of the data recovered using fetch. 
         let index=  Math.floor(Math.random() * res.length);
         setRandomIndex(index);
         navigate(`/recipedetail/${randomIndex}`)
-        return randomIndex
       };
 
     return (<>

@@ -11,6 +11,7 @@ interface Recipe {
 
 export default function FavoriteRecipe() {
     const [favData, setFavData] = useState<Recipe[]>([]);
+    // this useEffect runs only first render 
     useEffect(() => {
         async function fetchData() {
           const favorites = JSON.parse(localStorage.getItem('favorite') || '[]') as Recipe[];
