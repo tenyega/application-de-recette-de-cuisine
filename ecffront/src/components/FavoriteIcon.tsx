@@ -17,6 +17,7 @@ const FavoriteIcon: React.FC<FavoriteIconProps> = ({ id, dataId }) => {
         const resDatas = await response.json();
         setDatas(resDatas);
         const localValues = JSON.parse(localStorage.getItem('favorites') || '[]') as any[];
+
         if (localValues) {
           const isFavorite = localValues.some((value) => value.id === id);
           setFillColor(isFavorite ? '#ff9900' : 'none');
