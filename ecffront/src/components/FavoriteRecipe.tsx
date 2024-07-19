@@ -14,7 +14,7 @@ export default function FavoriteRecipe() {
     // this useEffect runs only first render 
     useEffect(() => {
         async function fetchData() {
-          const favorites = JSON.parse(localStorage.getItem('favorite') || '[]') as Recipe[];
+          const favorites = JSON.parse(localStorage.getItem('favorites') || '[]') as Recipe[];
           setFavData(favorites);
         }
         fetchData();
