@@ -46,7 +46,25 @@ export default function RecipeList() {
       { id: 3, label: 'Asian' },
       { id: 4, label: 'Italian' },
       { id: 5, label: 'American' }
-    ];
+  ];
+  
+
+  useEffect(() => {
+    async function fetchData() {
+        try {
+            const response = await fetch('https://server-json-ecf.vercel.app/recipe');
+            setDatas(await response.json());
+            if (datas) {
+                setRes(datas);
+                console.log(datas);
+            }
+        } catch (err) {
+            setRes([]);
+        }
+    }
+    fetchData();
+     
+},[]);
     
    // this code is only to show or hide the dropdown of the category filter  and at the same time hides the type filter 
   const toggleDropdownCat = () => {
@@ -55,21 +73,22 @@ export default function RecipeList() {
   };
     
   const handleOptionToggleCat = (optionCat: OptionCat) => {
-       // Check if the optionCat is already selected
+       // Check if the optionCat is already selected and some function returns true or false as per the finding 
         const isSelectedCat = selectedOptionsCat.some((selectedOptionCat) => selectedOptionCat.id === optionCat.id);
         console.log('isSelectedCat',isSelectedCat )
         if (isSelectedCat) {
-          // If already selected, filter out the deselected category
+          // If already selected, then removes it from the selectedOptionsCat and now updatedOptionsCat containes the new array of all selected Category after removing the unselected category
           const updatedOptionsCat = selectedOptionsCat.filter((selectedOptionCat) => selectedOptionCat.id !== optionCat.id);
           // Update selectedOptionsCat state with the updated array
           setSelectedOptionsCat(updatedOptionsCat);
       
           // Filter datas based on remaining selected categories
           if (updatedOptionsCat.length > 0) {
+            //this filteredData contains the list of all the data from db.json which has the same category as that of checked Category
             const filteredData = datas.filter((dataToGet: { id: Key; category: string; }) => {
-              // Check if any remaining selected category matches dataToGet category
-              return updatedOptionsCat.some((selectedOptionCat) => dataToGet.category.toLowerCase().includes(selectedOptionCat.label.toLowerCase()));
-            });
+                    // Check if any remaining selected category matches dataToGet category
+                    return updatedOptionsCat.some((selectedOptionCat) => dataToGet.category.toLowerCase().includes(selectedOptionCat.label.toLowerCase()));
+                  });
             // Update the filtered result state (res)
             setRes(filteredData);
           } else {
@@ -77,12 +96,13 @@ export default function RecipeList() {
             setRes(datas);
           }
         } else {
-          // If the category is not selected, add it to selectedOptionsCat
-          setSelectedOptionsCat([...selectedOptionsCat, optionCat]);
+          // If the category is not present in selectedOptionsCat then add it to newSelectedOptionsCat
+          const newSelectedOptionsCat = [...selectedOptionsCat, optionCat];
+          setSelectedOptionsCat(newSelectedOptionsCat);
       
-          // Filter datas based on all selected categories
+          // Filter datas based on all selected categories and now filteredData contains the list of db.json with category= selected checkbox category
           const filteredData = datas.filter((dataToGet: { id: Key; category: string; }) => {
-            return [...selectedOptionsCat, optionCat].some((selectedOptionCat) => dataToGet.category.toLowerCase().includes(selectedOptionCat.label.toLowerCase()));
+            return newSelectedOptionsCat.some((selectedOptionCat) => dataToGet.category.toLowerCase().includes(selectedOptionCat.label.toLowerCase()));
           });
           // Update the filtered result state (res)
           setRes(filteredData);
@@ -118,22 +138,7 @@ export default function RecipeList() {
     }
   };
 
-    useEffect(() => {
-        async function fetchData() {
-            try {
-                const response = await fetch('https://server-json-ecf.vercel.app/recipe');
-                setDatas(await response.json());
-                if (datas) {
-                    setRes(datas);
-                    console.log(datas);
-                }
-            } catch (err) {
-                setRes([]);
-            }
-        }
-        fetchData();
-         
-    },[]);
+
     
   //Below is the code for the search logic 
     useEffect(() => {
@@ -191,7 +196,8 @@ export default function RecipeList() {
             {/* Filter Logic  for category*/}
             <div className="dropdown">
           <div className="dropdown-toggle" onClick={toggleDropdownCat}>
-                <h2>Select the Category</h2>
+            <h2>Select the Category</h2>
+            {/* this setSelectedOptionsCat contains all the selected checkbox , first it checks if our category dropdown is visible then only concat the list selected to this line below to show it to the user which options are selected  */}
                     {isOpenCat && selectedOptionsCat.length > 0 ? selectedOptionsCat.map((optionCat) => optionCat.label).join(', ') : ''}
                     <hr />
                 </div>
@@ -203,7 +209,8 @@ export default function RecipeList() {
                             <input
                             type="checkbox"
                             checked={selectedOptionsCat.some((selectedOptionCat) => selectedOptionCat.id === optionCat.id)}
-                            onChange={() => handleOptionToggleCat(optionCat)}
+                            //only checks the checkbox if the option is in the selectedoptions 
+                            onChange={() => handleOptionToggleCat(optionCat)}//calls the handleOptionToggleCat with the id label of the optionCat
                             />
                             {optionCat.label}
                         </label>
