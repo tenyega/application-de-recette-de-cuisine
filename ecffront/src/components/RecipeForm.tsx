@@ -72,25 +72,9 @@ const RecipeForm= () => {
   const [msg, setMsg] = useState('');
 
   // All the regex for the form validation 
-  const titleRegx =/^.{3,}$/;
-  const descRegx = /^[a-zA-Z\n ]{2,30}$/
-  const requiredPattern = /^(?=.*\S)[\s\S]+$/;
-
-
-
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
-    const { name, value } = e.target;
-    setFormData((prevState: any) => ({
-      ...prevState,
-      [name]: value
-    }));   
-
-    const error = validate(name, value);
-    setErrors({
-      ...errors,
-      [name]: error,
-    });
-  };
+  const titleRegx =/^.{3,}$/; //is used to match strings that are at least 3 characters long
+  const descRegx = /^[a-zA-Z\n ]{2,30}$/  //is used to match strings that consist only of letters (both uppercase and lowercase), newline characters, and spaces, and have a length between 2 and 30 characters inclusive
+  const requiredPattern = /^(?=.*\S)[\s\S]+$/;//is designed to match strings that contain at least one non-whitespace character and can include any characters (both whitespace and non-whitespace). For the not empty field
 
   useEffect(() => {
     const fetchRecipes = async () => {
@@ -105,6 +89,23 @@ const RecipeForm= () => {
 
     fetchRecipes();
   }, []);
+
+
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
+    const { name, value } = e.target;
+    setFormData((prevState: any) => ({
+      ...prevState,
+      [name]: value
+    }));   
+
+    //this error is the return value of validate funtion which is a switch case to verify each value taking its name in switch 
+    const error = validate(name, value);
+
+    setErrors({
+      ...errors,
+      [name]: error,
+    });
+  };
 
   const validate = (name: string, value: string) => {
     switch (name) {
@@ -171,13 +172,13 @@ const RecipeForm= () => {
     const newErrors: RecipeFormData = {
       title: validate('title', formData.title),
       id: '',
-      desc: '',
+      desc: validate('desc', formData.desc),
       category: validate('category', formData.category),
       type: validate('type', formData.type),
       img:  validate('img', formData.img),
       time:  validate('time', formData.time),
-      ingredients: '',
-      steps:  '',
+      ingredients: validate('ingredients', formData.ingredients),
+      steps: validate('steps', formData.steps),
       conseil:  validate('conseil', formData.conseil),
     };
 
@@ -186,13 +187,14 @@ const RecipeForm= () => {
     const hasErrors = Object.values(newErrors).some(error => error !== '');
 
     if (!hasErrors) {
-     
       console.log(formData);
+      //here the formData is destructed to get the ingredients and steps as we want to save it in an array format
       const { ingredients, steps, ...rest } = formData;
+      //this const recipe for us has the actual format needed for ur db.json after doing the split and map for the ingredients and steps 
       const recipe: Recipe = {
         ...rest,
-        id: datas.length.toString(), // Replace with your own id generation logic
-        ingredients: ingredients.split('\n').map((item: string) => item.trim()),
+        id: datas.length.toString(), // as my id in data base is a number that increments every time and it starts with zero thats why its lenght would be the next id for next element 
+        ingredients: ingredients.split('\n').map((item: string) => item.trim()),//Here each ingredients is split at new line to save in the array of ingredients and later the map is done for the split ingredients to remove any before or after whitespaces
         steps: steps.split('\n').map((item: string) => item.trim()),
        
       };
@@ -212,10 +214,10 @@ const RecipeForm= () => {
           setMsg("Successfully added your recipe");
         }
         if (!response.ok) {
-          setMsg("<h1 style={{ color: 'red' }}>We have encountred error while saving your recipe</h1>")
+          setMsg("We have encountred error while saving your recipe")
         }
   
-  
+        //here the form Data is reset to zero again
         setFormData({
           id:'',
           title: '',
@@ -247,17 +249,17 @@ const RecipeForm= () => {
         <div className="first">
           <div className='formTitle'>
             <label htmlFor="title">Title:</label><br />
-            <input type="text" id="title" name="title" className='formInput' value={formData.title} onChange={handleInputChange} required />
+            <input type="text" id="title" name="title" className='formInput' value={formData.title} onChange={handleInputChange}  />
             {errors.title && <div className='errMsg'>{errors.title}</div>}<br /><br />
           </div>
           <div className='formDesc'>
             <label htmlFor="desc">Description:</label><br />
-            <textarea id="desc" name="desc" rows={4} className='formInput' value={formData.desc} onChange={handleInputChange} required></textarea>
+            <textarea id="desc" name="desc" rows={4} className='formInput' value={formData.desc} onChange={handleInputChange} ></textarea>
             {errors.desc && <div className='errMsg'>{errors.desc}</div>}<br /><br />
           </div>
           <div className='formCat'>
             <label htmlFor="category">Category:</label><br />
-            <select id="category" name="category" value={formData.category} onChange={handleInputChange} required>
+            <select id="category" name="category" value={formData.category} onChange={handleInputChange} >
               <option value="">Select a category</option>
               <option value="starter">Starter</option>
               <option value="main course">Main Course</option>
@@ -267,7 +269,7 @@ const RecipeForm= () => {
           </div>
           <div className='formType'>
             <label htmlFor="type">Type of Cuisine:</label><br />
-            <select id="type" name="type" value={formData.type} onChange={handleInputChange} required>
+            <select id="type" name="type" value={formData.type} onChange={handleInputChange} >
               <option value="">Select Type</option>
               <option value="asian">Asian</option>
               <option value="american">American</option>
@@ -280,19 +282,19 @@ const RecipeForm= () => {
           </div>
           <div className='formImg'>
             <label htmlFor="img">Image URL:</label><br />
-            <input type="text" id="img" name="img" className='formInput' value={formData.img} onChange={handleInputChange} required />
+            <input type="text" id="img" name="img" className='formInput' value={formData.img} onChange={handleInputChange}  />
             {errors.img && <div  className='errMsg'>{errors.img}</div>}
             <br /><br />
           </div>
           <div className='formTime'>
             <label htmlFor="time">Time:</label><br />
-            <input type="text" id="time" name="time" className='formInput' value={formData.time} onChange={handleInputChange} required />
+            <input type="text" id="time" name="time" className='formInput' value={formData.time} onChange={handleInputChange}  />
             {errors.time && <div  className='errMsg'>{errors.time}</div>}
             <br /><br />
           </div>
           <div className='formConseil'>
             <label htmlFor="conseil">Chef's Advice:</label><br />
-            <input type="text" id="conseil" name="conseil" className='formInput' value={formData.conseil} onChange={handleInputChange} required />
+            <input type="text" id="conseil" name="conseil" className='formInput' value={formData.conseil} onChange={handleInputChange}  />
             {errors.conseil && <div  className='errMsg'>{errors.conseil}</div>}
             <br /><br />
           </div>
@@ -300,13 +302,13 @@ const RecipeForm= () => {
         <div className="second">
           <div className='formIngredients'>
             <label htmlFor="ingredients">Ingredients (each on a new line):</label><br />
-            <textarea id="ingredients" name="ingredients" rows={13} value={formData.ingredients} onChange={handleInputChange} required></textarea>
+            <textarea id="ingredients" name="ingredients" rows={13} value={formData.ingredients} onChange={handleInputChange} ></textarea>
             {errors.ingredients && <div  className='errMsg'>{errors.ingredients}</div>}
             <br /><br />
           </div>
           <div className='formSteps'>
             <label htmlFor="steps">Steps (each on a new line):</label><br />
-            <textarea id="steps" name="steps" rows={13} value={formData.steps} onChange={handleInputChange} required></textarea>
+            <textarea id="steps" name="steps" rows={13} value={formData.steps} onChange={handleInputChange} ></textarea>
             {errors.steps && <div  className='errMsg'>{errors.steps}</div>}
             <br /><br />
           </div>
