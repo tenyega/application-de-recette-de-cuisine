@@ -363,6 +363,17 @@ button.submit img {
   }
 }
 
+/*suggestions in search bar*/
+.suggestions {
+  border-radius: 15px;
+  padding: 0.5rem;
+  z-index: 10;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 22%;
+}
+
 /*MEDIA QUERIES */
 @media screen and (max-width: 560px) {
   .loop {
